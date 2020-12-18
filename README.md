@@ -1,1 +1,1 @@
-# ODA-ont
+# Keuringen ODA-ontology
