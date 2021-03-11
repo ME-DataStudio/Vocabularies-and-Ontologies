@@ -60,7 +60,7 @@ uco:licensePlate rdf:type owl:DatatypeProperty ;
 vso:VIN rdf:type owl:DatatypeProperty .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Aantal_gebreken_geconstateerd
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#aantalGebrekenGeconstateerd
 :Aantal_gebreken_geconstateerd rdf:type owl:DatatypeProperty ;
                                rdfs:subPropertyOf owl:topDataProperty ;
                                rdfs:domain :GeconstateerdGebrek ;
@@ -68,7 +68,7 @@ vso:VIN rdf:type owl:DatatypeProperty .
                                dcterms:description "Getal dat aangeeft hoe vaak binnen dezelfde keuring een bepaald gebrek is geconstateerd."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Classificatie_toegevoegd_obj
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#classificatieToegevoegdObj
 :Classificatie_toegevoegd_obj rdf:type owl:DatatypeProperty ;
                               rdfs:subPropertyOf owl:topDataProperty ;
                               rdfs:domain :ToegevoegdObject ;
@@ -79,7 +79,7 @@ G3 = derde generatie LPG-installatie met nationale typegoedkeuring voor de emiss
 R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.z. voor de emissie, de onderdelen en de bevestiging."""@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Demontagedatum
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#demontagedatum
 :Demontagedatum rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf owl:topDataProperty ;
                 rdfs:domain :ToegevoegdObject ;
@@ -87,7 +87,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                 dcterms:description "Datum wanneer een toegevoegd object is gedemonteerd."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Einddatum_gebrek
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#einddatumGebrek
 :Einddatum_gebrek rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:domain :Gebrek ;
@@ -95,7 +95,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                   dcterms:description "Laatste dag van de periode waarin het gebrek kan worden opgevoerd door de keuringsinstantie."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Gasinstallatie_tank_inhoud
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#gasinstallatieTankInhoud
 :Gasinstallatie_tank_inhoud rdf:type owl:DatatypeProperty ;
                             rdfs:subPropertyOf owl:topDataProperty ;
                             rdfs:domain :ToegevoegdObject ;
@@ -103,7 +103,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                             dcterms:description "De inhoud van een gastank in liters."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Gebrek_artikel_nummer
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#gebrekArtikelNummer
 :Gebrek_artikel_nummer rdf:type owl:DatatypeProperty ;
                        rdfs:subPropertyOf owl:topDataProperty ;
                        rdfs:domain :Gebrek ;
@@ -111,7 +111,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                        dcterms:description "Het artikelnummer uit de  Regeling voertuigen (keuringseisen APK) dat van toepassing is op het gebrek."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Gebrek_identificatie
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#gebrekIdentificatie
 :Gebrek_identificatie rdf:type owl:DatatypeProperty ;
                       rdfs:subPropertyOf owl:topDataProperty ;
                       rdfs:domain :Gebrek ;
@@ -119,7 +119,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                       dcterms:description "Volgnummer om een gebrek te kunnen identificeren."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Gebrek_omschrijving
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#gebrekOmschrijving
 :Gebrek_omschrijving rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf owl:topDataProperty ;
                      rdfs:domain :Gebrek ;
@@ -127,7 +127,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                      dcterms:description "Omschrijving van een gebrek dat door een keurmeester kan worden geconstateerd."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Gebrek_paragraaf_nummer
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#gebrekParagraafNummer
 :Gebrek_paragraaf_nummer rdf:type owl:DatatypeProperty ;
                          rdfs:subPropertyOf owl:topDataProperty ;
                          rdfs:domain :Gebrek ;
@@ -135,7 +135,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                          dcterms:description "De paragraaf uit de keuringseisen APK die van toepassing is op het gebrek."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Ingangsdatum_gebrek
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#ingangsdatumGebrek
 :Ingangsdatum_gebrek rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf owl:topDataProperty ;
                      rdfs:domain :Gebrek ;
@@ -143,7 +143,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                      dcterms:description "Eerste dag van de periode waarin het gebrek  van belang  is en kan worden opgevoerd door de keuringsinstantie."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Kenteken
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#kenteken
 :Kenteken rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf owl:topDataProperty ;
           rdfs:domain :Gebrek ,
@@ -155,7 +155,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
           dcterms:description "Het kenteken van een voertuig bestaat uit een combinatie van cijfers en letters. Deze combinatie is vermeld op het kentekenbewijs en de kentekenplaat. Door het kenteken wordt een voertuig uniek en identificeerbaar."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Meld_datum_door_keuringsinstantie
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#meldDatumDoorKeuringsinstantie
 :Meld_datum_door_keuringsinstantie rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf owl:topDataProperty ;
                                    rdfs:domain :GeconstateerdGebrek ,
@@ -164,7 +164,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                                    dcterms:description "De datum dat een melding in het kader van een bepaalde erkenning door een keuringsinstantie is gedaan."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Meld_tijd_door_keuringsinstantie
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#meldTijdDoorKeuringsinstantie
 :Meld_tijd_door_keuringsinstantie rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf owl:topDataProperty ;
                                   rdfs:domain :GeconstateerdGebrek ,
@@ -173,7 +173,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                                   dcterms:description "De tijd dat een melding in het kader van een bepaalde erkenning door een keuringsinstantie is gedaan."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Merk_object_toegevoegd
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#merkObjectToegevoegd
 :Merk_object_toegevoegd rdf:type owl:DatatypeProperty ;
                         rdfs:subPropertyOf owl:topDataProperty ;
                         rdfs:domain :ToegevoegdObject ;
@@ -181,7 +181,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                         dcterms:description "Merk van een aangebouwd object."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Merkcode_toegevoegd_object
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#merkcodeToegevoegdObject
 :Merkcode_toegevoegd_object rdf:type owl:DatatypeProperty ;
                             rdfs:subPropertyOf owl:topDataProperty ;
                             rdfs:domain :ToegevoegdObject ;
@@ -189,7 +189,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
                             dcterms:description "De merkcode van een type van een bepaald toegevoegd object."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Montagedatum
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#montagedatum
 :Montagedatum rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:domain :ToegevoegdObject ;
@@ -197,7 +197,7 @@ R1 = een retrofit gas-installatie die voldoet aan VN/ECE-Reglement nr. 115, d.w.
               dcterms:description "Datum wanneer een toegevoegd object is gemonteerd. Een montage datum bij een tachograaf houdt in dat de tachograaf op dat moment is gekalibreerd."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Soort_erkenning_keuringsinstantie
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#soortErkenningKeuringsinstantie
 :Soort_erkenning_keuringsinstantie rdf:type owl:DatatypeProperty ;
                                    rdfs:subPropertyOf owl:topDataProperty ;
                                    rdfs:domain :GeconstateerdGebrek ,
@@ -214,7 +214,7 @@ SB Inbouwen snelheidsbegrenzer
 TA Controleapparaten"""@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Soort_erkenning_omschrijving
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#soortErkenningOmschrijving
 :Soort_erkenning_omschrijving rdf:type owl:DatatypeProperty ;
                               rdfs:subPropertyOf owl:topDataProperty ;
                               rdfs:domain :GeconstateerdGebrek ,
@@ -223,7 +223,7 @@ TA Controleapparaten"""@nl .
                               dcterms:description "De volledige beschrijving van Erkenningssoort. Zie Soort-erkenning-keuringsinstantie."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Soort_melding_KI_omschrijving
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#soortMeldingKiOmschrijving
 :Soort_melding_KI_omschrijving rdf:type owl:DatatypeProperty ;
                                rdfs:subPropertyOf owl:topDataProperty ;
                                rdfs:domain :Melding ;
@@ -237,7 +237,7 @@ correctie uitbouw
 correctie periodieke controle"""@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Soort_toe_te_voegen_object_omschrijving
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#soortToeTeVoegenObjectOmschrijving
 :Soort_toe_te_voegen_object_omschrijving rdf:type owl:DatatypeProperty ;
                                          rdfs:subPropertyOf owl:topDataProperty ;
                                          rdfs:domain :ToegevoegdObject ;
@@ -251,7 +251,7 @@ Snelheidsbegrenzer
 Tachograaf"""@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Steekproef_indicator
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#steekproefIndicator
 :Steekproef_indicator rdf:type owl:DatatypeProperty ;
                       rdfs:subPropertyOf owl:topDataProperty ;
                       rdfs:domain :Melding ;
@@ -259,7 +259,7 @@ Tachograaf"""@nl .
                       dcterms:description "Indicator die aangeeft of  door het systeem een steekproef is toegewezen aan de keuringsinstantie."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Uitvoerings_volgnr_toegev_obj
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#uitvoeringsVolgnrToegevObj
 :Uitvoerings_volgnr_toegev_obj rdf:type owl:DatatypeProperty ;
                                rdfs:subPropertyOf owl:topDataProperty ;
                                rdfs:domain :ToegevoegdObject ;
@@ -267,7 +267,7 @@ Tachograaf"""@nl .
                                dcterms:description "Uitvoeringsvolgnummer van het type van een bepaald toegevoegd object."@nl .
 
 
-###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#Vervaldatum_keuring
+###  http://www.me-datastudio.nl/ontologies/2020/11/opendata/rdw#vervaldatumKeuring
 :Vervaldatum_keuring rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf owl:topDataProperty ;
                      rdfs:domain :Keuring ,
