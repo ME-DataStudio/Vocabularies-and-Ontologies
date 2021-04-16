@@ -1,0 +1,2511 @@
+<http://www.me-datastudio.nl/vocabularies/voertuig#v42>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De toegestane maximum massa van een samenstel van motorrijtuig en aanhangwagen volgens opgave fabrikant." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Maximum massa samenstel" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v21>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "C02 uitstoot gemeten bij een op een rollenbank gemeten voertuig, van toepassing op een extern oplaadbaar hybride elektrisch voertuig, met een oplading van buitenaf gewogen gecombineerd volgens de berekening in de richtlijn." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "C02 uitstoot gewogen" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v189>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het bereik waarbinnen de lengte van het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max lengte voertuig bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v168>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Omschrijving van de uitvoeringsvorm van de inrichting van een voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Inrichtingscode" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v147>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Hiermee wordt aangegeven of de motor alleen wordt aangedreven door elektriciteit. En er geen sprake is van een hybride variant." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Enkel elektrische indicator" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v126>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "CO uitstoot gemeten bij een op een rollenbank rijdend voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie koolmonoxide" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v105>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Europese voertuig categorie bij een Europees type goedgekeurd type." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "EEG/ECE voertuig categorie bij type" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v268>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De hoogste waarde van de vermogens van de motoren die bij een bepaalde voertuiguitvoering kunnen worden toegepast." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Vermogen bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v92>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Volgnummer binnen Carrosserie voertuig per voertuig-id" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Carrosserie volgnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v247>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een oplegger getrokken door een trekkend voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max massa oplegger bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v71>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Laagste waarde van het bereik waarbinnen het aantal zitplaatsen valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal zitplaatsen ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v226>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De wijze waarop de brandstofinspuiting geschiedt. De codering is:  A Anders*  D Direct  G Geen waarde gespecificeerd 1 Indirect S Inlaatspruitstuk V Voorkamer W Wervelkamer Z Zonder inspuiting  * Anders betekent dat het een inspuiting betreft die niet tot een van de andere codes behoort.  Voor benzinemotoren (elektrische ontsteking) zijn toegestaan:  A, D, G, 1, S en Z  Voor dieselmotoren (compressie ontsteking) zijn toegestaan:  D, G, 1, V, W en Z" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Soort inspuiting motor" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v50>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Omschrijving van de uitvoeringsvorm van de inrichting van een voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Omschrijving van de inrichting" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v205>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De maximumsnelheid van het voertuig waarvoor de elektromotor ondersteuning biedt, is de snelheid van rijwielen met trapondersteuning, voorzien van een elektrische motor waarvan de aandrijfkracht geleidelijk vermindert en ten slotte wordt onderbroken wanneer het voertuig de betreffende snelheid bereikt. Deze snelheid wordt door de fabrikant opgegeven in de typegoedkeuring.  Deze snelheid is ge�roduceerd bij de inwerking treding van de verordening 168/2014.  De maximumsnelheid van het voertuig waarvoor de elektromotor ondersteuning biedt wordt in de goedkeuringen alleen vastgelegd voor fietsen met trappers met de Europese voertuigcategorie Lle." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Maximaal  ondersteunende snelheid" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v197>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het bereik waarbinnen de technische maximum massa van het beladen voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max massa voertuig bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v29>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het geluidsniveau van een rijdend voertuig in dB(A), gemeten zoals voorgeschreven in de regelgeving. Voor elektrische en plug-in hybride voertuigen wordt dit gegeven niet vastgelegd." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Geluidsniveau rijdend" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v176>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Onderste waarde van het bereik waarbinnen alle lengtes van uitvoeringen van een bepaalde voertuigvariant moeten vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Lengte  voertuig(uitvoering)  ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v155>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De code van een fabrikant die een voertuig volgens een bepaald Europees type fabriceert." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Fabrikantcode type" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v134>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Emissie van ammonia gemeten volgens de World Harmonized Stationary Cycle (WHSC) test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie nh3 volgens whsc" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v113>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Deeltjes aantal uitstoot gemeten bij een op een rollenbank rijdend voertuig, verplichtend bij de testen voor compressie-ontsteking (diesel-achtigen) vanaf euro 5." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie aant deeltjes tl test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v8>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Nationale code voor de brandstof dan wel energiebron van de motor van een voertuig. De codering en de bijbehorende tekst is als volgt:  �\tB = Benzine  �\tC = LNG (Liquified Natural Gas)  �\tD = Diesel  �\tE = Elektriciteit  �\tG = LPG (Liquified Petroleum Gas)  �\tH = CNG (Compressed Natural Gas, aardgas)  �\tW = Waterstof  �\tA = Alcohol  Elektriciteit is geen brandstof maar een energiebron. Echter om aan te kunnen geven dat het voertuig voorzien is van een elektromotor is er voor gekozen om de E te hanteren." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Brandstof" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v276>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Hoogste waarde van het bereik waarbinnen alle wielbases vallen van individuele voertuigen die voldoen aan een bepaalde goedgekeurde voertuiguitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Wielbasis bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v255>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Nationale code voor de tweede brandstof dan wel energiebron van de motor van een voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Tweede brandstofcode voertuig" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v234>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Europese codering voor het type carrosserie voor speciale doeleinden van een typegoedgekeurd compleet voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Subcateg uitvoering Europees" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v79>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Begindatum van de restantvoorraadregeling bij een uitvoering gebaseerd op de be�diging van een deelrichtlijn. De periode tussen de begin- en einddatum geldt als restantvoorraadperiode, de grenzen behoren tot de periode. Na deze periode mag een voertuig niet meer via de versnelde kentekenaanvraag worden toegelaten." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Begindatum restant voorraad" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v213>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De kleinste waarde van het bereik van het netto maximale vermogen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Netto max vermogen ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v58>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het aantal cilinders van een verbrandingsmotor. Op het huidige kentekenbewijs wordt dit gegeven vermeld onder de rubriek 'Aant dl.'. Voor Wankelmotoren is de waarde 0 en ook voor elektrische motoren (BRANDST-C-VRTG = E)." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal cilinders" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v37>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Dit is de massa van een voertuig, uitgedrukt in kilogram, zonder passagiers en lading.  Als dit veld niet gevuld is, kijk dan of deze waarde voorkomt onder het veld Bijzonderheden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Massa leeg voertuig" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v184>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Laagste waarde van het bereik waarbinnen de maximale massa leeg voertuig valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Massa leeg voertuig ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v16>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Europese aanduiding voor het carrosserietype van een voertuig.  Deze wordt vastgesteld tijdens de goedkeuring van een voertuig.  Het gegeven wordt alleen vastgesteld bij voertuigen van de Europese voertuigcategorie�n:  Ml (personenauto's)  M2 en M3 (bussen)  N1-N3 (bedrijfsauto's)  01-04 (aanhangwagens)" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Carrosserietype" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v163>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een as geheven kan worden, d.w.z. zodanig omhoog bewogen dat de wielen tijdens het rijden het wegdek niet raken.  Deze mag alleen de waarde 'J' bevatten  - voor bedrijfsauto als AS-NR-VRTG > 1 en AANT-ASSEN >= 3 en  -voor aanhangwagen als AS-NR-VRTG > 0 en AANT-ASSEN >= 2.  In de andere gevallen moet de waarde 'N' zijn." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Hefas" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v142>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Massa koolwaterstoffen gemeten volgens de World Harmonized Stationary Cycle (WHSC) test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie the volgens whsc" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v121>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Deeltjes aantal uitstoot gemeten bij een op een vermogensbank geplaatste motor, verplichtend bij de testen voor compressie-ontsteking (diesel-achtigen) vanaf euro 5, gemeten volgens de World Harmonized Stationary Cycle (WHSC) test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie deeltjes aantal whsc" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v100>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop de Europese typegoedkeuring is verleend door de betreffende goedkeuringsinstantie van een EEG lidstaat." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "EEG  typegoedkeuringsdatum" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v263>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop de geregistreerde gegevens van de uitvoering zijn geaccordeerd door VT. Hierna kunnen zowel de kentekenregistratie als de informatieverstrekking van de uitvoeringsgegevens gebruik maken." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Uitvoering registratie datum" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v242>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het bereik waarbinnen de technisch toelaatbare" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max massa" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v87>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Onderste waarde van het bereik waarbinnen alle breedtes van uitvoeringen van een bepaalde voertuigvariant moeten vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Breedte  voertuig(uitvoering)  ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v221>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Een maat voor de vervuiling van de lucht die uit de uitlaat van een voertuig komt." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Roet uitstoot acc" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v66>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Ondergrens van het bereik waarbinnen het aantal voor rolstoelgebruikers toegankelijke plaatsen moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal rolstoel plaats ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v200>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De laagste waarde van alle technisch toelaatbare maximum massa's die bij een bepaalde voertuiguitvoering geregistreerd kunnen worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max massa vrtg techn ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v45>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De RDW registreert bij bepaalde voertuigen binnen de Milieuclassificatie onder andere de Euroklasse. De Euroklasse is een indeling op basis van de mate van uitstoot van vervuilende stoffen. Binnen de nu vastgestelde Euroklassen kennen we Euro 0, 1, 2, 3, 4, 5, 6, EEVen R.  Voor de numerieke waarden geldt: hoe hoger het getal, des te minder uitstoot van vervuilende stoffen. Zo betekent de waarde Euro 0 bijvoorbeeld dat het voertuig veel vervuilende stoffen uitstoot en de waarde Euro 5 betekent dat het voertuig minder vervuilende stoffen uitstoot. De waarde EEV staat voor Enhanced Environmentally friendly Vehicle. Een EEV-voertuig stoot minder vervuilende stoffen uit dan Euro 5, maar meer dan Euro 6.  De waarde R staat voor uitstoot deeltjes minder dan 0,005 g/km. Alleen van toepassing op een personenauto of bedrijfsauto met een dieselmotor die niet voldoet aan Euro 5 of hoger.  In een aantal gevallen is geen waarde bekend of kan de RDW deze niet vaststellen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Milieuclassificatie (Emissie omschrijving)" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v192>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De laagste van alle ondergrenzen van het bereik waarbinnen de maximum massa geremde aanhangwagen moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max massa geremd ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v24>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Dit is de datum die aangeeft wanneer het voertuig voor het eerst is geregistreerd (waar ook ter wereld)." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Datum eerste toelating" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v171>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een uitvoering is voorzien van een katalysator." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Katalysator indicator" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v150>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Datum waarop de geldigheid van een Europese typegoedkeuring eindigt of be�indigd is. Voertuigen die na deze datum geproduceerd zijn mogen niet meer op grond van deze typegoedkeuring geregistreerd worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Europese typegoedkeuring einddatum" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v129>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "HC uitstoot gemeten bij een op een rollenbank rijdend voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie koolwaterstof" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v108>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een voertuig af fabriek van een elektromotor is voorzien." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Electromotor af fabriek indicator" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v3>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het logisch volgnummer." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Bijzonderheid  volgnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v271>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Hiermee wordt aangegeven of de motor uitsluitend geschikt is voor ? soort brandstof dan wel voor meerdere.  Monofuel (M), Bifuel (B), Flexfuel (F), Dualfuel (D)  M = voertuig geschikt voor gebruik van 1 brandstoftype B = voertuig geschikt voor gebruik van 2 afzonderlijk te gebruiken brandstoftypes uitgerust met 2 brandstof-systemen.  F = voertuig geschikt voor gebruik van meerdere brandstoffen door 1 brandstofsysteem (bijv. E85)  D = voertuig geschikt voor gebruik van meerdere brandstoffen door meerdere brandstofsystemen  T = voertuig geschikt voor gebruik van drie brandstoffen door twee of meer brandstofsystemen" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Voertuigbrandstof type" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v250>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Ondergrens van het bereik van de maximale massa samenstelling. Deze grens bepaalt of een voertuig tot een bepaalde uitvoering behoort." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max massa samenst ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v95>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Code die status van intrekking van een uitvoering van een Europese typegoedkeuring aangeeft. De volgende codes zijn mogelijk:  spatie = n.v.t.  0 = Ongeldig  G = Geldig: de uitvoering blijft bestaan in de op te voeren uitbreiding van de typegoedkeuring.  V = Verwijderd: de uitvoering staat nog wel geregistreerd, maar er wordt gehandeld alsof hij verwijderd is." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Code status intrekking uitvoering" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v74>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovengrens van het bereik waarbinnen de afstand van hart koppeling tot de eerstvolgende as van een voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Afst hart koppeling as bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v229>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De hoogste waarde van het stationaire toerental in verband met dieselroetmeting." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Station toerental bovengrens acc" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v53>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een uitvoering is voorzien van een 24GHz-kortbereik radar." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "24GHz_kortbereik radar" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v208>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Code die een merk per soort voertuig identificeert. Deze code wordt door de RDW zelf toegekend." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Merkcode" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v32>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een as geheven kan worden, d.w.z. zodanig omhoog bewogen dat de wielen tijdens het rijden het wegdek niet raken.  Deze mag alleen de waarde 'J' bevatten voor bedrijfsauto als AS-NR-VRTG > 1 en AANT-ASSEN >= 3 en voor aanhangwagen als AS-NR-VRTG > 0 en AANT-ASSEN >= 2.  In de andere gevallen moet de waarde 'N' zijn." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Hefas" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v11>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het brandstofverbruik in 1/100 km, tijdens een combinatie van gestandaardiseerde stadsrit- en rit buiten de stad, getest op een rollenbank." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Brandstofverbruik  gecombineerd" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v179>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een motor voorzien is van luchtinjectie." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Lucht injectie indicator" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v158>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het bereik waarbinnen het geluidsniveau voor een bepaald typegoedgekeurd voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Geluidsniveau ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v137>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Emissie van stikstofoxiden gemeten volgens de World Harmonized Stationary Cycle (WHSC) test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie nox volgens whsc" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v116>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "CO uitstoot gemeten volgens de World Harmonized Stationary Cycle (WHSC) met een testcyclus bestaande uit statische toestanden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie co volgens whsc" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v258>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het technische type zoals dit door de fabrikant van een voertuig wordt gebezigd.  Meestal is dit een weinig zeggende codering, in tegenstelling tot de 'handelsbenaming' die in het maatschappelijk verkeer veel vaker wordt gebruikt." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Type fabrikant" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v82>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Nationale code voor de brandstof dan wel energiebron van de motor van een voertuig. De codering en de bijbehorende tekst is als volgt: B = Benzine, C = LNG (Liquified Natural Gas), D = Diesel, E = Elektriciteit, G = LPG (Liquified Petroleum Gas), H = CNG (Compressed Natural Gas, aardgas), W = Waterstof, A = Alcohol.  Elektriciteit is geen brandstof maar een energiebron. Echter om aan te kunnen geven dat het voertuig voorzien is van een elektromotor is er voor gekozen om de E te hanteren." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Brandstofcode" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v237>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Ondergrens van het bereik voor de technisch toelaatbare last op een as. Deze grens bepaalt of een voertuig tot een bepaalde uitvoering gerekend kan worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max as last ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v61>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Hoogste waarde van het bereik waarbinnen het aantal zittende passagiers valt van alle individuele voertuigen in de categorie M2 en M3 die voldoen aan een bepaalde Europees goedgekeurde voertuiguitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal passagier zittend bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v216>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Codering van de plaats waar het identificatienummer van het voertuig is ingeslagen, gezien vanuit de rijrichting. Het is een opeenvolging van aanduidingen voor plaatsen en van voertuigonderdelen. De numerieke waarde in XXX krijgt als achtervoegsel ' cm'." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Plaatscode voertuig identificatie" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v40>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Aanhangwagen geremd  Hiermee wordt aangegeven wat de wettelijk toegestane massa (in kilogram) van een getrokken geremde aanhangwagen maximaal mag zijn, ongeacht het type aanhangwagen. De RDW registreert dit gegeven bij personenauto's." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Maximum te trekken massa geremd" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v187>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovengrens van het bereik waarbinnen de maximum snelheid die een voertuig kan halen, beperkt wordt door het ontwerp van het voertuig, moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max constructie snelheid bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v19>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Dit is het totale volume van de verbrandingsruimte van de verbrandingsmotor van het voertuig, uitgedrukt in cm3." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Cilinderinhoud" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v166>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een voertuig af fabriek van een elektromotor is voorzien waarvan de accu door de benzinemotor wordt gevoed. Dit attribuut maakt zo het onderscheid tussen hybride voertuigen en elektrische voertuigen die met een externe krachtbron worden opgeladen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Hybride elektrisch voertuig" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v145>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Emissie van vaste stoffen (onder andere roet) gemeten volgens de ETC test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie vaste stofdeeltjes etc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v124>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De som van HC en NOX uitstoot." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie hc en nox typel" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v103>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De code van een uitvoering van een variant binnen een Europees voertuigtype." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "EEG uitvoeringscode" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v266>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het brandstofverbruik tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank van toepassing op een extern oplaadbaar hybride elektrisch voertuig, met een oplading van buitenafgewogen gecombineerd volgens de berekening in de richtlijn." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Verbruik gecombineerd" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v90>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Europese codering voor nadere aanduiding van het type carrosserie van een voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Carrosserie uitvoering numeriek Europees" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v245>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een middenasaanhangwagen getrokken door een trekkend voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max massa middenas bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v224>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De rookwaarde gemeten volgens de ELR test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Rookwaarde elrtest" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v69>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Personenauto's, bedrijfsauto's, bussen en aanhangwagens: Het aantal wielen waarmee een voertuig is uitgevoerd." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal wielen" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v203>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Onderste waarde van het bereik waarbinnen het elektrisch continue vermogen van alle uitvoeringen van een bepaalde voertuigvariant moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max vermogen continu bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v48>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Dit is het maximumvermogen, uitgedrukt in kW, dat de verbrandingsmotor kan leveren bij een bepaald toerental om een voertuig in beweging te brengen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Nettomaximumvermogen" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v195>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De hoogste van alle bovengrenzen van het bereik waarbinnen de wettelijk toegestane maximum massa samenstel moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max massa samenstel bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v27>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Extra aanduiding bij een Europese voertuigcategorie. Deze wordt gebruikt om 'e' als toevoeging op LI t/m L7 om 2/3-wielers volgens de codering van Richtlijn 2002/24/EG te onderscheiden van de ECE-codering voor voertuigen op minder dan vier wielen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Europese  voertuigcategorie  toevoeging" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v174>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het bereik waarbinnen de lengte van de laadruimte het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Lengte laadruimte ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v153>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop de huidige status van de Europese typegoedkeuring is ingegaan." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Europese typegoedkeuring status datum" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v132>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Massa koolwaterstoffen gemeten volgens de ETC test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie koolwaterstoffen etc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v111>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Deeltjes aantal uitstoot gemeten voor op een vermogensbank geplaatste motor, verplichtend bij de testen voor compressie-ontsteking (diesel-achtigen) vanaf euro 5." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie aant deeltjes esc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v6>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het variabele deel van een bijzonderheid dat bij een bijzonderheid hoort." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Bijzonderheid variabele tekst" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v274>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Volgnummer binnen de versnellingsbak uitvoering" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Volgnummer  versnellingsbak" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v253>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het aantal omwentelingen per minuut van de krukas van de motor waarbij het netto maximum vermogen wordt bereikt. De bovengrens bepaalt wanneer een voertuig nog tot dezelfde motor gerekend kan worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Toerental max vermogen bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v98>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of op een bepaalde as dubbele montage van toepassing is, dat wil zeggen dat er twee banden tegen elkaar op een dubbele velg zijn gemonteerd. Indien van toepassing geldt dit altijd voor de betreffende as." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Dubbele montage" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v232>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De laagste waarde van het stationaire toerental in verband met dieselroetmeting." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Stationair toerental ondergr" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v77>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Ondergrens van het bereik waarbinnen een de afstand tot de volgende as van een bepaalde as van een individueel voertuig moet vallen om tot dezelfde uitvoering gerekend te worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Afstand volgende as ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v211>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Code die een fabrikant van een voertuig aan een toegepaste motor toekent." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Motorcode" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v56>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Onderste waarde van het bereik waarbinnen het aantal zitplaatsen die uitsluitend zijn bestemd voor gebruik bij een stilstaand voertuig valt, van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aant zitpl stilst vrtg ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v35>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Geeft aan hoe zwaar (in kilogram) de lading van bedrijfsauto's en aanhangwagens mag wegen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Laadvermogen" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v182>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het bereik waarbinnen de massa bedrijfsklare toestand moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Massa bedrijfsklaar toestand ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v14>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "BPM staat voor Belasting Personenauto's en Motorrijwielen. Dit is een belasting die eenmalig moet worden betaald door degene die als eerste een personenauto, bedrijfsauto, bus, driewielig motorrijtuig of motorfiets op zijn naam laat registreren." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Bruto BPM" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v161>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Benaming van een uitvoering van een variant binnen een Europees voertuigtype zoals die binnen Nederland in commercieel verband gebruikt werd tot 2006. Deze werd door de RDW vastgesteld in overleg met de fabrikant/vertegenwoordiger/importeur. Vanaf 1-1-2006 vermeldt de RDW deze benaming niet meer op het kentekenbewijs." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Handelsbenaming" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v140>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Emissie van stikstofoxiden gemeten volgens de ESC test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie stikstofoxiden esc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v119>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "C02 uitstoot gemeten bij een op een rollenbank gemeten voertuig, van toepassing op een extern oplaadbaar hybride elektrisch voertuig, met een oplading van buitenafgewogen gecombineerd volgens de berekening in de richtlijn." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie co2 gecombineerd" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v261>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een motor voorzien is van uitlaatgas hercirculatie." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Uitlaatgas circulatie indicator" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v240>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het bereik waarbinnen de technisch toelaatbare maximale statische verticale belasting/massa op het koppelpunt (kg) moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max last koppelpunt bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#s2>
+        a       <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Typegoedkeuring schema" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v85>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het brandstofverbruik tijdens een gestandaardiseerde stadsritcyclus, uitgevoerd op een rollenbank." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Brandstofverbruik stadsrit" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v64>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Laagste waarde van het bereik waarbinnen het aantal passagiers (zittend en staand) valt van alle individuele voertuigen in de categorie M2 en M3 die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal passagiers ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v219>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het nummer van de laatste wijzigingsrichtlijn die op de goedkeuring van toepassing is. Indien een Richtlijn in verschillende fasen van kracht wordt, dan worden deze fasen onderscheiden met een afwijkend teken." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Richtlijn nummer laatste wijziging" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v43>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Maximumsnelheid van een voertuig waarvoor de elektromotor ondersteuning biedt." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Maximum  ondersteunende snelheid" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v190>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het bereik waarbinnen de lengte van het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max lengte voertuig ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v22>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Op deze datum is de laatste eigenaar of houder van het voertuig in het kentekenregister geregistreerd. De datum staat vermeld op het tenaamstellingsbewijs (deel IB) van het papieren kentekenbewijs of voorop het kentekenbewijs op creditcardformaat (de kentekencard), dat de RDW sinds 1 januari 2014 uitgeeft. Met ingang van deze datum is de geregistreerde eigenaar of houder aansprakelijk voor de wettelijke voertuigverplichtingen zoals APK, de wettelijke aansprakelijkheidsverzekering en houderschapsbelasting voor dat voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Datum aanvang tenaamstelling" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v169>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Datum waarop de Europese TGK ingetrokken is verklaard door VT, n.a.v. het aanscherpen van de normen/eisen van een deelrichtlijn." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Intrekdatum uitvoering" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v148>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Als het voertuig op basis van een Europese typegoedkeuring is toegelaten tot de weg, wordt hier het nummer getoond." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "EU Type  goedkeuringssleutel" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v127>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "CO uitstoot gemeten met een testcyclus bestaande uit 13 statische toestanden die tot stand moeten worden gebracht." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie koolmonoxide esc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v106>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Einddatum van de restantvoorraadregeling bij een uitvoering gebaseerd op de be�indiging van een deelrichtlijn. De periode tussen de begin- en einddatum geldt als restantvoorraadperiode, de grenzen behoren tot de periode. Na deze periode mag een voertuig niet meer via de versnelde kentekenaanvraag worden toegelaten." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Einddatum restant voorraad" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v1>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Afwijkende maximum snelheid" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Afwijkende maximum snelheid" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v269>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De laagste waarde van de vermogens van de motoren die bij een bepaalde voertuiguitvoering kunnen worden toegepast." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Vermogen ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v93>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het totale slagvolume (= slag * zuigeroppervlak * aantal cilinders) van de motor. Op het huidige kentekenbewijs wordt dit gegeven vermeld onder de rubriek 'P.l. Cil. inhoud'." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Cilinderinhoud (cm3)" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v248>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een oplegger getrokken door een trekkend voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max massa oplegger ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v72>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De actieradius tijdens een combinatie van gestandaardiseerde stadsriten buitenwegcycli, uitgevoerd op een rollenbank." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Actieradius brandstof" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v227>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De hoogste van alle bovengrenzen van het bereik waarbinnen de spoorbreedte van een bepaalde as van een voertuiguitvoering moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Spoorbreedte bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v51>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een uitvoering is voorzien van een 24GHz-kortbereik radar." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "24GHz_kortbereik radar" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v206>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Geeft aan hoeveel biobrandstof in de brandstof maximaal aanvaardbaar is in procenten." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Maximale biobrandstof percentage" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v30>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het geluidsniveau van een stilstaand voertuig met draaiende motor in dB(A), gemeten bij het bijbehorende toerental zoals voorgeschreven in de regelgeving. Voor elektrische en plug-in hybride voertuigen wordt dit gegeven niet vastgelegd." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Geluidsniveau stationair" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v198>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het bereik waarbinnen de technische maximum massa van het beladen voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max massa voertuig ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v177>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Code die aangeeft of een bepaald voertuig of een bepaalde voertuiguitvoering linksrijdend of rechtsrijdend is uitgevoerd." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Links / Rechts rijdend" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v156>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of de vering op een as gelijkwaardig is aan luchtvering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Gelijkwaardig aan luchtvering" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v135>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Massa non-methaan koolwaterstoffen gemeten volgens de World Harmonized Stationary Cycle (WHSC) test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie nmhc volgens whsc" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v114>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Methaan emissie gemeten volgens de World Harmonized Stationary Cycle (WHSC) test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie ch4 volgens whsc" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v9>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Volgnummer waarmee de emissiegegevens bij een bepaalde brandstof in de gewenste volgorde kunnen worden getoond." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Brandstof volgnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v277>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Laagste waarde van het bereik waarbinnen alle wielbases vallen van individuele voertuigen die voldoen aan een bepaalde goedgekeurde voertuiguitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Wielbasis ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v256>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Europese codering voor het carrosserietype." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Type carrosserie" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v80>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop de geldigheid van de uitvoering begint of begonnen is. Dit kan zijn de typegoedkeuringsdatum van een eerste goedkeuring of van een wijziging of uitbreiding. Voertuigen, die voor deze datum geproduceerd zijn mogen niet op grond van deze uitvoering geregistreerd worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Begindatum uitvoering" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v235>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Volgnummer om de aan de uitvoering gekoppelde codering(en) voor carrosserie voor speciale doeleinden te identificeren en uniek te  maken." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Subcategorie uitvoering volgnr" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v214>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Volgnummer dat binnen een voertuig-uitvoering een plaatsaanduiding voor het VRTG-ID-NR identificeert." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Plaats aanduiding volgnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v59>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Hoogste waarde van het bereik waarbinnen het aantal deuren valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal deuren bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v38>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Personenauto's, bedrijfsauto's, bussen:  Deze waarde geeft aan wat de massa van het voertuig is in rijklare toestand, uitgedrukt in kilogram, met een voor 90 procent gevulde brandstoftank en een bestuurder (75kg).  Driewielige motorrijtuigen, motorfietsen, bromfietsen:  Deze waarde geeft aan wat de massa van het voertuig is in rijklare toestand, uitgedrukt in kilogram, met een voor 90 procent gevulde brandstoftank.  Aanhangwagens:  Deze waarde geeft aan wat de massa van het voertuig is in rijklare toestand, uitgedrukt in kilogram.  Als dit veld niet gevuld is, kijk dan of deze waarde voorkomt onder het veld Bijzonderheden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Massa rijklaar" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v185>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het bereik waarbinnen de breedte van het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max breedte voertuig bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v17>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De catalogusprijs is gebaseerd op informatie van de importeur en is als volgt berekend: netto-catalogusprijs, verhoogd met de BTW en de BPM.  Het registreren van de catalogusprijs is wettelijk verplicht voor voertuigen die vanaf 1 juli 2005 voor het eerst op naam gezet worden.  U kunt deze catalogusprijs gebruiken als grondslag voor berekening bijtelling priv�-gebruik auto in uw Belastingaangifte.  De Belastingdienst maakt bij controle gebruik van de hier vermelde gegevens." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Catalogusprijs" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v164>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovenste waarde van het bereik waarbinnen alle hoogtes van uitvoeringen van een bepaalde voertuigvariant moeten vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Hoogte  voertuig(uitvoering)  bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v143>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De uitstoot van vaste stoffen (onder andere roet) gemeten bij een op een rollenbank rijdend voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie vaste stofdeeltjes" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v122>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "HC uitstoot van benzine voertuig bij een type VI test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie hc bij koude start" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v101>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Een volgnummer ter aanduiding van een uitbreiding op de basisgoedkeuring. Voor iedere basisgoedkeuring begint een reeks volgnummers met 01." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "EEG uitbreiding goedkeuringsnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v264>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Volgnummer ter aanduiding van een wijziging op een uitvoering van een Europese typegoedkeuring. Voor iedere wijziging wordt het volgnummer 1 hoger. Dit is geen Europees gegeven, maar het wordt gebruikt om wijzigingen in de typegoedkeuring historisch te kunnen vastleggen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Uitvoering  wijzigingsnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v243>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "maximum massa van een autonoom geremde aanhangwagen getrokken door een trekkend voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "autonoom bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v88>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indeling van de klasse voor voertuigen van de categorie M2 of M3  (bussen)  De richtlijn 2001/85/EG kent voor voertuigen met een capaciteit van meer dan 22 passagiers, de bestuurder niet meegerekend, drie klassen voertuigen:  'klasse 1', voertuigen gebouwd met ruimte voor staande passagiers, zodat passagiers vaak kunnen in- en uitstappen;  'klasse II', voertuigen voornamelijk gebouwd voor het vervoer van zittende passagiers en ontworpen voor het vervoer van staande passagiers in het gangpad en/of op een oppervlak dat niet groter is dan de ruimte voor twee dubbele zitplaatsen;  'klasse lil', voertuigen uitsluitend gebouwd voor het vervoer van zittende passagiers.  Een voertuig mag tot meer dan ��n klasse behoren. In een dergelijk geval kan het voertuig voor elke klasse waarin het kan worden ingedeeld, worden goedgekeurd.  Voor voertuigen met een capaciteit van maximaal 22 passagiers, de bestuurder niet meegerekend, zijn er twee voertuigklassen:  'klasse A', voertuigen ontworpen voor het vervoer van staande passagiers; een voertuig van deze klasse heeft zitplaatsen en moet voorzieningen voor staande passagiers hebben;  'klasse B', voertuigen niet ontworpen voor het vervoer van staande passagiers; een voertuig van deze klasse heeft geen voorzieningen voor staande passagiers." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Carrosserie klasse Europees" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v222>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovengrens van de rolstraal per as." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Rolstraal bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v67>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovenste waarde van het bereik waarbinnen het aantal versnellingen valt van de versnellingsbak van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal versnellingen bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v201>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovengrens van het bereik waarbinnen het de maximumsnelheid van het voertuig waarvoor de elektromotor ondersteuning biedt moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max ondersteuning snelheid bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v46>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Richtlijnnummer voor emissies van voertuigen waarop het voertuig is getoetst en goedgekeurd." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Milieuklasse EG goedkeuring (licht)" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v193>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De hoogste van alle bovengrenzen van het bereik waarbinnen de maximum massa ongeremde aanhangwagen moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max massa ongeremd bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v25>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Extra aanduiding bij een Europese voertuiguitvoering.  Een 'G' achter de voertuigcategorie is de aanduiding voor 'Gel�ndefahrzeug'." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Europese  uitvoeringcategorie  toevoeging" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v172>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De kenletters of kengetal van een EEG lidstaat, tot dusver voorafgegaan door de kleine letter e. De mogelijke kenletters of kengetallen met de bijbehorende landen zijn: el = Duitsland e2 = Frankrijk  e3 = Itali� e4 = Nederland  e5 = Zweden  e6 = Belgi� el = Hongarije e8 = Tsjechi� e9 = Spanje ell = Verenigd Koninkrijk el2 = Oostenrijk el3 = Luxemburg el7 = Finland el8 = Denemarken el9 = Roemeni� e20 = Polen e21 = Portugal  e23 = Griekenland (vroeger was de code hiervoor eEL)  e24 = Ierland (vroeger was de code hiervoor eIRL)  e26 = Sloveni� e27 = Slowakije  e29 = Estland  e32 = Letland  e34 = Bulgarije  e36 = Litouwen  e49 = Cyprus  e50 = Malta  nl = Nederland Land codes en correcte weergave met eventuele overgangsnummeringen kan je het beste overnemen uit het rode boekje van afdeling OVR(ontwikkeling voertuig reglementering ). Ik kan dat boekje vinden in de virtuele kast onder kopje overzichten. Op bladzijde 4 en 5 staat alles." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Landcode EEG typegoedkeuring" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v151>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Datum waarop de Europese TGK ingetrokken is verklaard door VT, n.a.v. het aanscherpen van de normen/eisen van een deelrichtlijn." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Europese typegoedkeuring intrek datum" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v130>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "HC uitstoot gemeten bij een op een rollenbank rijdend voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie koolwaterstof type 1" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v109>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het gewogen elektriciteitsverbruik tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Elektrisch verbruik combinatie" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v4>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Code van de bij een voertuig geregistreerde bijzonderheid." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Bijzonderheid code" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v272>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Volgnummer binnen handelsbenaming" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Volgnummer handelsbenaming" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v251>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het bereik waarbinnen het toerental geluidsniveau moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Toerental geluidsniveau bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v96>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Code die aangeeft of een bepaalde voertuiguitvoering een compleet voertuig is of niet. In dat laatste geval kan het bijvoorbeeld een goedgekeurd chassis(-type) zijn, dat later zal worden opgebouwd tot een compleet voertuig.  Voor niet-complete voertuigen mogen geen kentekens worden afgegeven." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Compleet voertuig indicator" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v230>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De laagste waarde van het stationaire toerental in verband met dieselroetmeting." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Station toerental ondergrens acc" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v75>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Ondergrens van het bereik waarbinnen de afstand van hart koppeling tot de eerstvolgende as van een voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Afst hart koppeling as ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v54>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Ja/Nee indicator die aangeeft of de betreffende as aangedreven is of niet." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aangedreven as" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v209>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De mimimummassa van het voltooide voertuig in het geval van een niet-voltooid voertuig (kg). Dit is noodzakelijk voor het testen van het remmen en het weggedrag van het voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Min massa voertuig" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v33>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het kenteken van een voertuig bestaat uit een combinatie van cijfers en letters. Deze combinatie is vermeld op het kentekenbewijs en de kentekenplaat. Door het kenteken wordt een voertuig uniek en identificeerbaar." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Kenteken" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v180>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een as luchtgeveerd is of niet." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Luchtvering" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v12>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het brandstofverbruik in 1/100 km, tijdens een gestandaardiseerde stadsritcyclus, getest op een rollenbank." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Brandstofverbruik stad" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v159>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het geluidsniveau van een rijdend voertuig, gemeten zoals voorgeschreven in de richtlijn geluidsemissie." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Geluidsniveau rijdend" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v138>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "NOx uitstoot gemeten bij een op een rollenbank rijdend voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie stikstofoxide" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v117>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De emissie van C02 tijdens een gestandaardiseerde buitenwegcyclus, uitgevoerd op een rollenbank." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie co2 buitenweg" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v259>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Manier waarop de schakeling tussen verschillende versnellingen plaatsvindt." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Type versnellingsbak" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v83>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het brandstofverbruik tijdens een gestandaardiseerde buitenwegcyclus, uitgevoerd op een rollenbank." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Brandstofverbruik  buitenweg" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v238>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovengrens van het bereik van de technisch toelaatbare massa op een asstel. Deze grens bepaalt of een voertuig tot een bepaalde uitvoering gerekend kan worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max last asstel bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v62>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Laagste waarde van het bereik waarbinnen het aantal zittende passagiers valt van alle individuele voertuigen in de categorie M2 en M3 die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal passagier zittend ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v217>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop de plaatsaanduiding bij een uitvoering van een Europese typegoedkeuring is geaccordeerd door VT. Hierna kunnen zowel de kentekenregistratie als de informatieverstrekking van de gegevens gebruik maken." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Registratie datum plaatsaanduiding" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v41>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Aanhangwagen ongeremd  Hiermee wordt aangegeven in kilogram wat de wettelijk toegestane massa van een getrokken ongeremde aanhangwagen maximaal mag zijn, ongeacht het type aanhangwagen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Maximum te trekken massa ongeremd" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v20>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De gewogen uitstoot van C02 in g/km van een plug-in hybride voertuig, tijdens een combinatie van een stadsrit en een rit buiten de stad, getest op een rollenbank. De waarde is berekend aan de hand van de uitstoot die ontstaat door eenmaal met lege accu's en eenmaal met volle accu's te rijden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Co2 uitstoot gecombineerd" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v188>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Ondergrens van het bereik waarbinnen de maximum snelheid die een voertuig kan halen, beperkt wordt door het ontwerp van het voertuig, moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max constructie snelheid ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v167>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De inhoud van een brandstoftank in liters." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Inhoud brandstoftank" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v146>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De RDW registreert bij bepaalde voertuigen binnen de Milieuclassificatie onder andere de Euroklasse. De Euroklasse is een indeling op basis van de mate van uitstoot van vervuilende stoffen. Binnen de nu vastgestelde Euroklassen kennen we Euro 0, 1, 2, 3, 4, 5, 6, EEVen R.  Voor de numerieke waarden geldt: hoe hoger het getal, des te minder uitstoot van vervuilende stoffen. Zo betekent de waarde Euro 0 bijvoorbeeld dat het voertuig veel vervuilende stoffen uitstoot en de waarde Euro 5 betekent dat het voertuig minder vervuilende stoffen uitstoot.  De waarde EEV staat voor Enhanced Environmentally friendly Vehicle. Een EEV-voertuig stoot minder vervuilende stoffen uit dan Euro 5, maar meer dan Euro 6.  De waarde R staat voor uitstoot deeltjes minder dan 0,005 g/km. Alleen van toepassing op een personenauto of bedrijfsauto met een dieselmotor die niet voldoet aan Euro 5 of hoger.  In een aantal gevallen is geen waarde bekend of kan de RDW deze niet vaststellen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissiecode" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v125>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Emissie van koolmonoxide gemeten volgens de ETC test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie koolmonoxide etc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v104>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De code van een variant binnen een Europees voertuigtype." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "EEG variantcode" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v267>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Code die aangeeft in welke verbruiksklasse een voertuiguitvoering valt. De klassering is in procenten ten opzichte van het gemiddeld verbruik. De codering is:  A: minder dan -20%  B: tussen -20% en -10%  C: tussen -10% en 0%  D: tussen 0% en +10%  E: tussen +10 en +20%  F: tussen +20 en +30%  G: meer dan +30%" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Verbruikcategorie  uitvoering" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v91>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Volgnummer binnen carrosserie aanduiding om de gekoppelde aanduiding aan een uitvoering te identificeren en uniek te maken." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Carrosserie uitvoering numeriek volgnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v246>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een middenasaanhangwagen getrokken door een trekkend voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max massa middenas ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v70>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Hoogste waarde van het bereik waarbinnen het aantal zitplaatsen valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal zitplaatsen bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v225>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het minimale snelheidssymbool van een band/wiel combinatie." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Snelheidssymbool  ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v204>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Onderste waarde van het bereik waarbinnen het elektrisch continue vermogen van alle uitvoeringen van een bepaalde voertuigvariant moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max vermogen continu ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v49>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het nominaal continu maximumvermogen, uitgedrukt in kW, dat de elektromotor kan leveren." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Nominaal continu maximumvermogen" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v196>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De laagste van alle ondergrenzen van het bereik waarbinnen de wettelijk toegestane maximum massa samenstel moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max massa samenstel ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v28>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Als een voertuig is ge�xporteerd, zijn de gegevens hiervan nog twee jaar te raadplegen vanaf de exportdatum. De gegevens van een ge�xporteerd voertuig worden door de RDW niet meer bijgewerkt." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Exportindicator" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v175>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovenste waarde van het bereik waarbinnen alle lengtes van uitvoeringen van een bepaalde voertuigvariant moeten vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Lengte  voertuig(uitvoering)  bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v154>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een voertuig af fabriek extern oplaadbaar is." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Extern oplaadbaar" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v133>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Methaan emissie gemeten volgens de ETC test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie methaan etc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v112>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Deeltjes aantal uitstoot gemeten voor op een vermogensbank geplaatste motor, verplichtend bij de zware testen vanaf euro 5." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie aant deeltjes etc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v7>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De eenheid van het variabele deel." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Bijzonderheid eenheid" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v275>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Werkingsbeginsel van een verbrandingsmotor. De codering is: E2 elektrische ontsteking, tweetakt E4 elektrische ontsteking, viertakt EE elektrische motor  ER elektrische ontsteking, Rotatiemotor (wankel)  C2 compressie-ontsteking, tweetakt C4 compressie-ontsteking, viertakt" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Werkingsbeginsel  verbrandingsmotor" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v254>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het aantal omwentelingen per minuut van de krukas van de motor waarbij het netto maximum vermogen wordt bereikt. De ondergrens bepaalt wanneer een voertuig nog tot dezelfde motor gerekend kan worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Toerental max vermogen ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v99>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Een volgnummer ter aanduiding van een basisgoedkeuring binnen een richtlijn van een bepaalde goedkeuringsinstantie." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "EEG basis  goedkeuringsnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v233>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een voertuig geheel gereed is voor kentekening en hoe deze goedkeuring tot stand is gekomen.  Deze kan alleen de waarde V, C of 1 bevatten.  (1) Voertuigen die incompleet zijn moeten nog voltooid worden om een goedkeuring te krijgen voor het gehele voertuig.  (V) Voertuigen die voltooid zijn hebben een goedkeuring voor het gehele voertuig. Voltooid geeft aan dat die via de zgn. meerfasetypegoedkeuring heeft plaatsgevonden.  (C) Voertuigen die compleet zijn hebben een goedkeuring voor het gehele voertuig. Compleet geeft aan dat deze niet via de meerfasegoedkeuring heeft gelopen en geen aanvullende voltooiingfase meer kent.  Enkel voertuigen die voorzien zijn van een complete of voltooide goedkeuring kunnen worden gekentekend zonder tussenkomst van een goedkeuringsproces." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Status voertuig kentekening" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v78>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Asnummer van de voertuiguitvoering (van voren geteld) van de as waarvan gegevens in de as uitvoering worden beschreven." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Asnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v212>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De grootste waarde van het bereik van het netto maximale vermogen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Netto max vermogen bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v57>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het aantal aangedreven assen van een voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal aangedreven assen" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v36>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De horizontale afstand tussen twee verticale vlakken die loodrecht staan op het middenlangsvlak van het voertuig en gaan door de uiterste voor- en achterzijde van het voertuig, gemeten in de stand van rechtuitrijden op een horizontaal wegdek; spiegels, zonnekleppen en de bevestigingsdelen daarvan worden buiten beschouwing gelaten. Op het huidige kentekenbewijs wordt dit gegeven vermeld onder de rubriek 'Lengte'.  In het kentekenregister uitsluitend van bedrijfsauto's met MAX-MASSA-VRTG > 3500 kg en aanhangwagens met MAX-MASSA-VRTG > 3500 kg.  Indien variabele afstanden mogelijk zijn, worden deze ook onder bovenvermelde rubriek vermeld, maar in de informatie uitwisseling en de opslag worden ze tot de 'bijzonderheden' gerekend. In typegoedkeuringsregisters kan dit gegeven ook voorkomen bij bijv. personenauto's. toepassing op  -" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Lengte" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v183>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Hoogste waarde van het bereik waarbinnen de maximale massa leeg voertuig valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Massa leeg voertuig bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v15>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Europese codering voor het carrosserietype van een goedgekeurd compleet of voltooid voertuig van de EEG-VRTG-CAT M, N of 0. Zie bijlage II van de richtlijn 2007/46/EG voor codering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Carrosseriecode" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v162>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Handelsbenaming van het voertuig zoals de fabrikant deze heeft opgegeven. De handelsbenaming kan afwijken van de aanduiding die op het voertuig te vinden is." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Handelsbenaming  fabrikant" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v141>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Emissie van stikstofoxiden gemeten volgens de ETC test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie stikstofoxiden etc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v120>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De emissie van C02 tijdens een gestandaardiseerde stadsritcyclus, uitgevoerd op een rollenbank." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie co2 stadsrit" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v262>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Kunstmatig bepaald volgnummer dat een uitgave van het brandstof verbruik boekje identificeert." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Uitvgavenummer  verbruikboek" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v241>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het bereik waarbinnen de technisch toelaatbare maximale statische verticale belasting/massa op het koppelpunt (kg) moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max last koppelpunt ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v86>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovenste waarde van het bereik waarbinnen alle breedtes van uitvoeringen van een bepaalde voertuigvariant moeten vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Breedte  voertuig(uitvoering)  bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v220>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Een maat voor de vervuiling van de lucht die uit de uitlaat van een voertuig komt." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Roet uitstoot" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v65>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovengrens van het bereik waarbinnen het aantal voor rolstoelgebruikers toegankelijke plaatsen moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal rolstoel plaats bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v44>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het merk van het voertuig zoals de fabrikant deze heeft opgegeven." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Merk" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v191>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De hoogste van alle bovengrenzen van het bereik waarbinnen de maximum massa geremde aanhangwagen moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max massa geremd bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v23>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum die aangeeft wanneer het voertuig voor het eerst in Nederland is geregistreerd." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Datum eerste afgifte Nederland" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v170>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De zijde van het voertuig waar het stuurwiel is gemonteerd. Waarden L Links R Rechts M Midden" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Kant van het stuur" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v149>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop de geregistreerde gegevens van de E-TGK zijn geaccordeerd door VT. Hierna kunnen zowel de kentekenregistratie als de informatieverstrekking van detypegoedkeuringsgegevens gebruik maken." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Europese typegoedkeruings registratie datum" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v128>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "CO uitstoot gemeten bij een op een rollenbank rijdend voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie koolmonoxide type 1" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v107>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop de geldigheid van de uitvoering eindigt of ge�indigd is. Voertuigen, die na deze datum geproduceerd zijn mogen niet meer op grond van deze uitvoering geregistreerd worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Einddatum uitvoering" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v2>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het nummer van de (fysieke) as vanaf de voorzijde van het voertuig gerekend. Bij pendelassen wordt het nummer bepaald van links naar rechts, gezien vanuit de rijrichting." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "As nummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v270>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop een typegoedkeuring komt te vervallen en daarmee niet meer gebruikt kan worden voor de kentekenafgifte." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Vervaldatum  typegoedkeuring" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v94>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een voertuig af fabriek van een CNG (Compressed Natural Gas) systeem is voorzien." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "CNG Systeem" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v249>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovengrens van het bereik van de maximale massa samenstelling. Deze grens bepaalt of een voertuig tot een bepaalde uitvoering behoort." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max massa samenst bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v73>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De elektrische actieradius tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank van een extern oplaadbaar hybride elektrisch voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Actieradius brandstof extern oplaadbaar" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v228>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De laagste van alle ondergrenzen van het bereik waarbinnen de spoorbreedte van een bepaalde as van een voertuiguitvoering moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Spoorbreedte ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v52>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Als het voertuig op basis van een Europese typegoedkeuring is toegelaten tot de weg, wordt hier het nummer getoond." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "EU Type  goedkeuringssleutel" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v207>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop de geregistreerde gegevens van een merk bij een uitvoering met een Europese typegoedkeuring zijn geaccordeerd door VT. Hierna kunnen zowel de kentekenregistratie als de informatieverstrekking van de gegevens gebruik maken." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Merk registratie datum" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v31>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Handelsbenaming van het voertuig zoals de fabrikant deze heeft opgegeven. De handelsbenaming kan afwijken van de aanduiding die op het voertuig te vinden is." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Handelsbenaming" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v199>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De hoogste waarde van alle technisch toelaatbare maximum massa's die bij een bepaalde voertuiguitvoering geregistreerd kunnen worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max massa vrtg techn bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v10>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het brandstofverbruik in 1/100 km, tijdens een gestandaardiseerde rit buiten de stad, getest op een rollenbank." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Brandstofverbruik buiten de stad" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v178>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een bepaalde motoruitvoering af fabriek voorzien is van een LPG-installatie. Dit is niet altijd direct af te leiden uit de brandstofcodes omdat die gevuld worden aan de hand van de grootte van de brandstoftanks. Het attribuut is van belang voor het bepalen van de juiste emissiewaarden die weer van belang zijn voor eventuele subsidie op de aanschafprijs." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "LPG Systeem" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v157>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het bereik waarbinnen het geluidsniveau voor een bepaald typegoedgekeurd voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Geluidsniveau bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v136>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Massa non-methaan koolwaterstoffen gemeten volgens de ETC test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie non methaan koolw etc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v115>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "CO uitstoot van benzine voertuig bij een type VI test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie co bij koude start" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v278>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft dat een voertuig is gebouwd op een op zichzelf staande dragende constructie." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Zelfdragende carrosserie" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v257>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Europese codering voor het carrosserietype van een goedgekeurd compleet of voltooid voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Type carrosserie Europees" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v81>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Volgnummer waarmee de emissiegegevens bij een bepaalde brandstof in de gewenste volgorde kunnen worden getoond." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Brandstof volgnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v236>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovengrens van het bereik voor de technisch toelaatbare last op een as. Deze grens bepaalt of een voertuig tot een bepaalde uitvoering gerekend kan worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max as last bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v60>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Laagste waarde van het bereik waarbinnen het aantal deuren valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal deuren ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v215>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Codering die aangeeft of het voertuig een vooras of achteras heeft." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Plaats as code" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v39>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De maximum constructiesnelheid is de snelheid die een bromfiets (technisch) maximaal kan behalen. Deze snelheid wordt bepaald door het ontwerp van de bromfiets. Voor bromfietsen is de maximale constructiesnelheid 45 kilometer per uur. In Nederland kennen we een bijzondere vorm van bromfietsen, de snorfietsen. Snorfietsen zijn herkenbaar aan de vermelding van een snelheid van 25 kilometer per uur of lager." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Maximale  constructiesnelheid  (brom/snorfiets)" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v186>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het bereik waarbinnen de breedte van het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max breedte voertuig ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v18>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Deze omschrijving geeft op hoofdlijnen aan bij welk onderdeel van het voertuig problemen zijn geconstateerd. Meer informatie vindt u in het terugroepregister van de RDW:" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Categorie defect" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v165>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Onderste waarde van het bereik waarbinnen alle hoogtes van uitvoeringen van een bepaalde voertuigvariant moeten vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Hoogte  voertuig(uitvoering)  ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v144>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De uitstoot van vaste stoffen (onder andere roet) gemeten met een testcyclus bestaande uit 13 statische toestanden die tot stand moeten worden gebracht." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie vaste stofdeeltjes esc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v123>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De som van HC en NOX uitstoot." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie hc en nox" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v102>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Extra aanduiding bij een Europese voertuiguitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "EEG uitvoering cat toevoeging" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v265>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De door de RDW vastgestelde code met betrekking tot de status van de Europese variant. Deze code geeft aan welk(e) ETK-proces(sen) als laatste een actie heeft (hebben) uitgevoerd met betrekking tot deze Europese typegoedkeuring." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Variant status" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v244>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een autonoom geremde aanhangwagen getrokken door een trekkend voertuig moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max massa autonoom ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v89>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Volgnummer binnen Indeling van de klasse om de gekoppelde klasse aan een carrosserie te identificeren en uniek te maken." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Carrosserie klasse volgnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v223>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Ondergens van de rolstraal per as." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Rolstraal ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v68>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Onderste waarde van het bereik waarbinnen het aantal versnellingen valt van de versnellingsbak van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal versnellingen ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v202>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovengrens van het bereik waarbinnen het de maximumsnelheid van het voertuig waarvoor de elektromotor ondersteuning biedt moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max ondersteuning snelheid ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v47>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Richtlijnnummer voor emissies van motoren waarop het voertuig is getoetst en goedgekeurd." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Milieuklasse EG goedkeuring (zwaar)" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v194>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De laagste van alle ondergrenzen van het bereik waarbinnen de maximum massa ongeremde aanhangwagen moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Max massa ongeremd ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v26>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Codering van de Europese voertuigcategorie. Zie ook voertuigcategorie." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Europese  voertuigcategorie" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v173>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het bereik waarbinnen de lengte van de laadruimte het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Lengte laadruimte bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v152>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De door de RDW vastgestelde code met betrekking tot de status van de Europese typegoedkeuring. Deze code geeft aan welk(e) ETK-proces(sen) als laatste een actie heeft (hebben) uitgevoerd met betrekking tot deze Europese typegoedkeuring. De volgende codes zijn mogelijk:  RT = registreren E-TGK AT = accorderen E-TGK WT = wijzigen E-TGK UT = uitbreiden E-TGK CT = corrigeren E-TGK BT = be�indigen E-TGK IU = intrekken E-TGK" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Europese typegoedkeuring status" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v131>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Massa koolwaterstoffen gemeten volgens de ESC test." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie koolwaterstoffen esc test" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v110>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het elektriciteitsverbruik tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank van toepassing op een extern oplaadbaar hybride elektrisch voertuig, met een oplading van buitenaf gewogen gecombineerd volgens de berekening in de richtlijn." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Elektrisch verbruik gecomb" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v5>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De omschrijving van de bij het voertuig geregistreerde bijzonderheid." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Bijzonderheid code omschrijving" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v273>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Volgnummer binnen de motor uitvoering" ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Volgnummer motor uitvoering" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v252>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De ondergrens van het bereik waarbinnen het toerental geluidsniveau moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Toerental geluidsniveau ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v97>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop de huidige status van de Europese typegoedkeuring is ingegaan." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Datum status wijziging" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v231>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De hoogste waarde van het stationaire toerental in verband met dieselroetmeting." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Stationair toerental bovengr" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v76>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovengrens van het bereik waarbinnen een de afstand tot de volgende as voor een bepaalde as van een individueel voertuig moet vallen om tot dezelfde uitvoering gerekend te worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Afstand volgende as bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v210>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop de geregistreerde gegevens van een Europees typegoedgekeurde motor zijn geaccordeerd door de Bid. Hierna kunnen zowel de kentekenregistratie als de informatieverstrekking van de motorgegevens gebruik maken." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Motor registratiedatum" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v55>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Bovenste waarde van het bereik waarbinnen het aantal zitplaatsen die uitsluitend zijn bestemd voor gebruik bij een stilstaand voertuig valt, van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aant zitpl stilst vrtg bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v34>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Kleur van het voertuig.  De RDW registreert hoofdkleuren. Lichtblauw en donkerblauw vallen bijvoorbeeld onder dezelfde kleuraanduiding, namelijk 'blauw'.  Vanaf 1 juli 2014 registreert de RDW de volgende kleuren:  Oranje, Rood, Wit, Blauw, Groen, Geel, Grijs, Bruin, Cr�me, Paars, Zwart. De RDW registreert maximaal twee kleuren." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Kleur(en)" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v181>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De bovengrens van het bereik waarbinnen de massa bedrijfsklare toestand moet vallen." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Massa bedrijfsklaar toestand bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v13>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s1> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De horizontale afstand tussen de twee verticale vlakken die evenwijdig lopen aan het middenlangsvlak van het voertuig en gaan door de uiterste linker- en rechterzijde van het voertuig, gemeten in de stand van rechtuitrijden op een horizontaal wegdek; de spiegels en de bevestigingsdelen daarvan worden buiten beschouwing gelaten. Op het huidige kentekenbewijs wordt dit gegeven vermeld onder de rubriek 'Breedte'. In het kentekenregister uitsluitend van toepassing op bedrijfsauto's en aanhangwagens." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Breedte" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v160>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Indicator die aangeeft of een bepaalde as van een voertuig de gestuurde as is." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Gestuurde as indicator" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v139>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "NOx uitstoot gemeten bij een op een rollenbank rijdend voertuig." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie stikstofoxide type 1" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v118>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De emissie van C02 tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Emissie co2 combinatierit" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v260>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Als het voertuig op basis van een Europese typegoedkeuring is toegelaten tot de weg, wordt hier het nummer getoond." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Typegoedkeuringsnummer" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#s1>
+        a       <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Gekentekend voertuig schema" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v84>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Het brandstofverbruik tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Brandstofverbruik combin rit" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v239>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Ondergrens van het bereik van de technisch toelaatbare massa op een asstel. Deze grens bepaalt of een voertuig tot een bepaalde uitvoering gerekend kan worden." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Techn max last asstel ondergrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v63>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "Hoogste waarde van het bereik waarbinnen het aantal passagiers (zittend en staand) valt van alle individuele voertuigen in de categorie M2 en M3 die voldoen aan een bepaalde Europees goedgekeurde voertuiguitvoering." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Aantal passagiers bovengrens" .
+
+<http://www.me-datastudio.nl/vocabularies/voertuig#v218>
+        a       <https://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>
+                <http://www.me-datastudio.nl/vocabularies/voertuig#s2> ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#definition>
+                "De datum waarop de handelsbenaming bij een uitvoering van een Europese typegoedkeuring is geaccordeerd door VT. Hierna kunnen zowel de kentekenregistratie als de informatieverstrekking van de gegevens gebruik maken." ;
+        <https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel>
+                "Registratiedatum  handelsbenaming" .
