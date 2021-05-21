@@ -72,35 +72,35 @@ skos:ConceptScheme rdf:type owl:Class .
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#s1
 :s1 rdf:type owl:NamedIndividual ,
              skos:ConceptScheme ;
-    skos:altLabel "RDW Open Data"@nl ;
+    skos:altLabel "Voertuig Open Data"@nl ;
     skos:prefLabel "Gekentekend voertuig schema"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#s2
 :s2 rdf:type owl:NamedIndividual ,
              skos:ConceptScheme ;
-    skos:altLabel "RDW open Data"@nl ;
+    skos:altLabel "Voertuig open Data"@nl ;
     skos:prefLabel "Typegoedkeuring schema"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#s3
 :s3 rdf:type owl:NamedIndividual ,
              skos:ConceptScheme ;
-    skos:altLabel "RDW Open Data"@nl ;
+    skos:altLabel "Voertuig Open Data"@nl ;
     skos:prefLabel "Keuringen schema"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#s4
 :s4 rdf:type owl:NamedIndividual ,
              skos:ConceptScheme ;
-    skos:altLabel "RDW Open Data"@nl ;
+    skos:altLabel "Voertuig Open Data"@nl ;
     skos:prefLabel "Erkende Bedrijven schema"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#s5
 :s5 rdf:type owl:NamedIndividual ,
              skos:ConceptScheme ;
-    skos:altLabel "RDW Open Data"@nl ;
+    skos:altLabel "Voertuig Open Data"@nl ;
     skos:prefLabel "Terugroepregister schema"@nl .
 
 
