@@ -2004,8 +2004,8 @@ klasse B., voertuigen niet ontworpen voor het vervoer van staande passagiers; ee
 :v243 rdf:type owl:NamedIndividual ,
                skos:Concept ;
       skos:inScheme :s2 ;
-      skos:definition "maximum massa van een autonoom geremde aanhangwagen getrokken door een trekkend voertuig moet vallen."@nl ;
-      skos:prefLabel "autonoom bovengrens"@nl .
+      skos:definition "De bovengrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een autonoom geremde aanhangwagen getrokken door een trekkend voertuig moet vallen."@nl ;
+      skos:prefLabel "Techn max massa autonoom bovengrens"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v244
