@@ -7,7 +7,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @base <http://www.me-datastudio.nl/vocabularies/voertuig> .
 
-<http://www.me-datastudio.nl/vocabularies/voertuig> rdf:type owl:Ontology .
+<http://www.me-datastudio.nl/vocabularies/voertuig> rdf:type owl:Ontology ;
+                                                     owl:versionInfo "2021-06-21: Gekentekend voertuig geactualiseerd."@nl .
 
 #################################################################
 #    Annotation properties
@@ -49,8 +50,16 @@ skos:exactMatch rdf:type owl:ObjectProperty ,
 skos:inScheme rdf:type owl:ObjectProperty .
 
 
+###  http://www.w3.org/2004/02/skos/core#member
+skos:member rdf:type owl:ObjectProperty .
+
+
 ###  http://www.w3.org/2004/02/skos/core#narrower
 skos:narrower rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#related
+skos:related rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -79,7 +88,7 @@ skos:ConceptScheme rdf:type owl:Class .
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#s2
 :s2 rdf:type owl:NamedIndividual ,
              skos:ConceptScheme ;
-    skos:altLabel "Voertuig open Data"@nl ;
+    skos:altLabel "Voertuig Open Data"@nl ;
     skos:prefLabel "Typegoedkeuring schema"@nl .
 
 
@@ -104,6 +113,14 @@ skos:ConceptScheme rdf:type owl:Class .
     skos:prefLabel "Terugroepregister schema"@nl .
 
 
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1
+:v1 rdf:type owl:NamedIndividual ,
+             skos:Concept ;
+    skos:inScheme :s1 ;
+    skos:definition "Afwijkende maximum snelheid"@nl ;
+    skos:prefLabel "Afwijkende maximum snelheid"@nl .
+
+
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v10
 :v10 rdf:type owl:NamedIndividual ,
               skos:Concept ;
@@ -120,12 +137,368 @@ skos:ConceptScheme rdf:type owl:Class .
       skos:prefLabel "EEG  typegoedkeuringsdatum"@nl .
 
 
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10010
+:v10010 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:prefLabel "Eerste kleur"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10011
+:v10011 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:prefLabel "Tweede kleur"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10015
+:v10015 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition """De wettelijk toegestane maximum massa van het voertuig, afgeleid van de technisch toegestane maximummassa van het voertuig. Zo nodig verminderd aan de hand van wettelijke bepalingen of op verzoek van de aanvrager van het kentekenbewijs.
+
+Als dit veld niet gevuld is, kijk dan of deze waarde voorkomt onder het veld Bijzonderheden."""@nl ;
+        skos:prefLabel "Toegestane maximum massa voertuig"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10019
+:v10019 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Voor een voertuig dat beschadigd is, of bij controle niet voldoet aan de technische eisen, kan de politie of de verzekeraar een melding “wachten op keuren” (WOK) in het register plaatsen. Alleen na een keuring door de RDW wordt deze melding verwijderd. Tot die tijd mag niet met het voertuig op de openbare weg gereden worden. Doet u dit wel, dan bent u in overtreding."@nl ;
+        skos:prefLabel "Wacht op keuren"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1002
+:v1002 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition """Europese voertuigcategorie, gevolgd door de nationale voertuigsoort zoals deze staat geregistreerd in het kentekenregister. De nationale voertuigsoort is afgeleid van de Europese voertuigcategorie.
+Als er een carrosserietype is geregistreerd dan wordt deze achter de code voor de voertuigcategorie getoond.
+De RDW onderscheidt momenteel de volgende voertuigsoorten: M1 Personenauto
+N1,N2,N3 Bedrijfsauto
+M2, M3 Bus
+L3e, L4e Motorfiets
+L5e, L7e Driewielig motorrijtuig
+L1e, L2e, L6e Bromfiets
+O1, O2, O3, O4 Aanhangwagen (Oplegger)
+Een 'G' achter de voertuigcategorie is de aanduiding voor 'Geländefahrzeug'."""@nl ;
+       skos:prefLabel "Voertuigsoort"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10020
+:v10020 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition """De RDW neemt geen verantwoordelijkheid voor de juistheid van dit gegeven. Deze is door derden aan de RDW geleverd.
+
+Wat is WAM?
+In de Wet Aansprakelijkheidsverzekering Motorrijtuigen (WAM) is bepaald dat een motorrijtuig verzekerd moet zijn als voor het motorrijtuig een kentekenbewijs is afgegeven. Ook een motorrijtuig dat niet wordt gebruikt, moet verzekerd zijn. Het niet verzekerd zijn is bij de WAM strafbaar gesteld.
+
+Er is één uitzondering op deze regel. De verzekeringsplicht is niet van toepassing als uit het kentekenregister blijkt dat de geldigheid van het kentekenbewijs is geschorst. Vanaf dat moment is het staan of rijden op de openbare weg niet toegestaan.
+
+De RDW is belast met de controle op de naleving van de verzekeringsplicht. Dit controleert de RDW aan de hand van Centraal Register WAM (CRWAM). Dit register wordt beheerd door de RDW.
+
+Een verzekeringsmaatschappij of gevolmachtigd agent is wettelijk verplicht ieder door haar verzekerd motorrijtuig in het verzekeringsregister (CRWAM) te laten aantekenen.
+
+Een verzekering dient binnen een wettelijke termijn van 28 dagen na de datum van ingang van de dekking in het CRWAM te zijn aangemeld. Wanneer een verzekering niet binnen deze termijn wordt aangemeld, dient een verzekeringsnemer contact op te nemen met de verzekeraar.
+
+Wat betekent 'Ja'
+Er staat een verzekering geregistreerd in het CRWAM bij het betreffende kenteken. De mogelijkheid bestaat echter dat de registratie van een (vorige) verzekering nog niet is beëindigd.
+Wat betekent 'Nee' Er staat geen verzekering geregistreerd in het CRWAM bij het betreffende kenteken. De mogelijkheid bestaat echter dat de registratie van de verzekering nog niet is aangemeld door de verzekeraar. Alléén deze kan zorgen voor een juiste registratie van de verzekering in het CRWAM.
+
+Wat betekent 'NVT'
+Een verzekeringsregistratie is bij het betreffende kenteken niet van toepassing of de van toepassing zijnde verzekering hoeft niet geregistreerd te worden in het CRWAM.
+Voor nadere informatie verwijs ik u naar de overige secties van deze RDW-site. Via de zoekfunctie kunt u de gewenste informatie eenvoudig opvragen."""@nl ;
+        skos:prefLabel "WAM verzekerd"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10021
+:v10021 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Deze categorie geeft aan hoe zwaar (in kilogram) een autonome geremde aanhangwagen maximaal mag zijn. Een autonome aanhangwagen is een aanhangwagen met minimaal een as aan de voorkant èn aan de achterkant, waardoor het voertuig zelfstandig op zijn wielen kan staan."@nl ;
+        skos:prefLabel "Aanhangwagen autonoom geremd"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10022
+:v10022 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Deze categorie geeft aan hoe zwaar (in kilogram) een geremde middenasaanhangwagen maximaal mag zijn. Een middenasaanhangwagen is een aanhangwagen met 1 of meerdere assen in het midden."@nl ;
+        skos:prefLabel "Aanhangwagen middenas geremd"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10024
+:v10024 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Deze categorie geeft aan hoe zwaar (in kilogram) een geremde oplegger maximaal mag zijn, als deze door de bedrijfsauto getrokken wordt."@nl ;
+        skos:prefLabel "Oplegger geremd"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10025
+:v10025 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Dit is de energie die een motor kan leveren om een voertuig in beweging te brengen, uitgedrukt in kW. Het vermogen van een bromfiets met een dieselmotor mag volgens Europese regelgeving niet hoger zijn dan 4 kW. Het vermogen van een bromfiets met benzinemotor mag – in tegenstelling tot vóór 1996 – hoger zijn dan 4 kW. Van elektrisch aangedreven bromfietsen vermeldt de RDW geen vermogen."@nl ;
+        skos:prefLabel "Vermogen (brom/snorfiets)"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10026
+:v10026 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition """Het aantal verticaal scharnierende of horizontaal schuivende deuren waarmee een voertuig is uitgerust.
+Twee deuren die \"tegen elkaar slaan\" zonder middenstijl worden beschouwd als 1 deur."""@nl ;
+        skos:prefLabel "Aantal deuren"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10027
+:v10027 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Dit is het maximaal aantal aanwezige staanplaatsen in autobussen."@nl ;
+        skos:prefLabel "Aantal staanplaatsen"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10029
+:v10029 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition """De afstand tussen de uiterste voorzijde van het motorrijtuig en het achterzijde voertuig hart van de koppeling.
+Uitsluitend van toepassing op bedrijfsauto's met MAX-MASSA-VRTG > 3500 kg voorzien van een koppeling. Indien meerdere afstanden mogelijk zijn, zijn deze opgenomen onder 'bijzonderheden'."""@nl ;
+        skos:prefLabel "Afstand hart koppeling tot achterzijde voertuig"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10034
+:v10034 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Omschrijving van de plaats waar het chassisnummer (ook wel 'VIN', Voertuig Identificatie Nummer, genoemd) is ingeslagen, gezien vanuit de rijrichting."@nl ;
+        skos:prefLabel "Plaats chassisnummer"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10035
+:v10035 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition """De technisch toegestane maximummassa van het voertuig, opgegeven door de fabrikant. Deze is bepalend voor de technische voorschriften waaraan het voertuig wordt getoetst bij de eerste toelating.
+Als dit veld niet gevuld is, kijk dan of deze waarde voorkomt onder het veld Bijzonderheden."""@nl ;
+        skos:prefLabel "Technische max. massa voertuig"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10037
+:v10037 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Dit is een LPG-installatie die voldoet aan de G3-eisen."@nl ;
+        skos:prefLabel "Type gasinstallatie"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10039
+:v10039 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Uitvoeringscode die onderdeel is van de Europese typegoedkeuring."@nl ;
+        skos:prefLabel "Uitvoering"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10040
+:v10040 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Variantcode die onderdeel is van de Europese typegoedkeuring."@nl ;
+        skos:prefLabel "Variant"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10041
+:v10041 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Dit gegeven is noodzakelijk om te kunnen vaststellen of men beschikt over de juiste motorfietsrijbewijscategorie."@nl ;
+        skos:prefLabel "Vermogen massarijklaar"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10042
+:v10042 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition """Volgnummer ter aanduiding van een wijziging op een uitvoering van typegoedkeuring een Europese typegoedkeuring.
+Voor iedere wijziging wordt het volgnummer 1 hoger. Dit is geen Europees gegeven, maar het wordt gebruikt om wijzigingen in de typegoedkeuring historisch te kunnen vastleggen."""@nl ;
+        skos:prefLabel "Volgnummer wijziging EU typegoedkeuring"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10043
+:v10043 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "De totale wielbasis van een voertuig in centimeters."@nl ;
+        skos:prefLabel "Wielbasis"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10044
+:v10044 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition """Als er sprake is van een kans op een defect en daarmee op gevaar, dan is dat voor de fabrikant van een voertuig reden een zogenoemde terugroepactie te organiseren. De fabrikant informeert de eigenaar aIs er een terugroepactie op een voertuig van toepassing is, meestal per brief. De fabrikant legt uit wat er aan de hand is en wat er aan het voertuig moet worden gedaan. Het is belangrijk dat de eigenaar ingaat op de terugroepactie van de fabrikant. Er is immers een kans op een mogelijk defect en dat raakt de veiligheid van de bestuurder, passagiers en medeweggebruikers.
+
+De RDW publiceert terugroepacties sinds 1 november 2012. Vanaf deze datum wordt de fabrikanten gevraagd de RDW te informeren over de openstaande en herstelde voertuigen van georganiseerde terugroepacties.
+
+Waarden Status terugroepactie(s)
+• Geen terugroepactie(s) geregistreerd:
+Het is de RDW niet bekend dat het voertuig door de fabrikant is teruggeroepen. Dit gegeven wordt ook weergegeven als de fabrikant de RDW heeft gemeld dat het voertuig naar aanleiding van een terugroepactie is hersteld.
+
+• Openstaande terugroepactie(s):
+De RDW is door de fabrikant geïnformeerd dat het voertuig is teruggeroepen. Er bestaat vanwege een kans op een defect een kans op gevaar voor de consument. Er kunnen meerdere terugroepacties op het voertuig van toepassing zijn. Als er meerdere terugroepacties van toepassing zijn, wordt hier alleen de nieuwste terugroepactie getoond. Meer informatie kunt u vinden door te zoeken in het terugroepregister van de RDW
+
+Herstelbedrijf heeft herstel gemeld:
+Het herstelbedrijf heeft de RDW gemeld dat het voertuig waarop een terugroepactie van toepassing was, gerepareerd is. Zodra de afmelding door de fabrikant is bevestigd verdwijnt de openstaande terugroepactie bij dit kenteken."""@nl ;
+        skos:prefLabel "Openstaande terugroepactie indicator"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10045
+:v10045 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Geeft aan of het voertuig ingericht is als taxi."@nl ;
+        skos:prefLabel "Taxi indicator"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10048
+:v10048 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:prefLabel "Zuinigheidslabel"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1005
+:v1005 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition """De vervaldatum APK is de datum waarop de geldigheid van de APK is vervallen. De vermelde datum is de meest actuele vervaldatum APK die geregistreerd is bij de RDW en kan in het verleden liggen. Van geschorste voertuigen wordt wel de laatst bekende vervaldatum APK getoond. Dit ondanks dat de APK-verplichting is opgeschort. Van voertuigen die nog nooit APK gekeurd zijn, wordt de ingangsdatum van de APK-plicht getoond. Deze datum wordt berekend op basis van de datum eerste toelating.
+
+Op de datum die u te zien krijgt, moet uw voertuig goedgekeurd zijn. Als er geen datum wordt gemeld, is er op dit moment geen vervaldatum APK bekend.
+
+De RDW controleert steekproefsgewijs zo'n drie procent van de auto's die een APK-keuring hebben ondergaan. Als het resultaat van zo'n steekproef afwijkt van het oorspronkelijke keuringsresultaat, kan het langer duren voor dit in deze database is verwerkt.
+
+Deze vervaldatum wordt getoond voor alle voertuigsoorten, met uitzondering van aanhangwagens en opleggers met een wettelijk toegestane maximummassa voertuig (F.2) onder de 3501 kg, driewielige motorrijtuigen met een ledige massa onder de 400 kg, motorfietsen en bromfietsen.
+
+De RDW neemt bij invoer van een voertuig vanuit een EU/EVA-land op verzoek van de kentekenaanvrager de buitenlandse APK- vervaldatum over, als wordt voldaan aan de gestelde voorwaarden."""@nl ;
+       skos:prefLabel "Vervaldatum APK"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10051
+:v10051 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition """De reeks die na de laatste registratie ontstaat, bepaalt het getoonde oordeel.
+Na registratie van meer dan 1 tellerstand is zichtbaar of deze tellerstanden oplopend zijn of niet. Als de tellerstanden oplopend zijn, krijgt de reeks die ontstaat een logisch oordeel. Als de tellerstanden niet oplopend zijn, ontstaat een onlogisch oordeel.
+In een aantal gevallen geeft de RDW geen oordeel over de reeks tellerstanden:
+• Het voertuig is geïmporteerd
+• Het voertuig heeft in het verleden een onlogisch oordeel
+gehad van NAP
+• De teller telt niet tot 999.999
+• De teller is vervangen of gerepareerd"""@nl ;
+        skos:prefLabel "Tellerstandoordeel"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10052
+:v10052 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Aantal voor rolstoelgebruikers toegankelijke plaatsen."@nl ;
+        skos:prefLabel "Aantal rolstoelplaatsen"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10054
+:v10054 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition """Dit gegeven wordt alleen vastgelegd voor bedrijfsauto's en aanhangwagens met een toegestane maximummassa die meer is dan 3500 kg. Dit is o.a. van belang voor de bepaling van de maximale lengte van het samenstel.
+Als dit veld niet gevuld is, kijk dan of deze waarde voorkomt onder het veld Bijzonderheden."""@nl ;
+        skos:prefLabel "Afstand voorzijde voertuig tot hart koppeling"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10057
+:v10057 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Deze code geeft het oordeel aan. Tevens sleutelveld voor de uitgebreide omschrijving."@nl ;
+        skos:prefLabel "Code toelichting tellerstandoordeel"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10059
+:v10059 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Extra aanduiding bij een Europese voertuiguitvoering. Een 'G' achter de voertuigcategorie is de aanduiding voor 'Geländefahrzeug'."@nl ;
+        skos:prefLabel "Europese uitvoeringcategorie toevoeging"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10060
+:v10060 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "De datum waarop de geldigheid van een Nederlandse tachograafkeuring vervalt."@nl ;
+        skos:prefLabel "Vervaldatum tachograaf"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10061
+:v10061 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Staat er bij Tenaamstellen mogelijk: ‘Nee’? Dan is het niet mogelijk het voertuig over te schrijven."@nl ;
+        skos:prefLabel "Tenaamstellen mogelijk"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v10062
+:v10062 rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:inScheme :s1 ;
+        skos:definition "Het jaar waarin de laatste tellerstand is geregistreerd. De reeks die door deze registratie is ontstaan, bepaalt het getoonde oordeel."@nl ;
+        skos:prefLabel "Jaar laatste registratie tellerstand"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1009
+:v1009 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Dit is het maximale aantal zitplaatsen dat technisch geschikt is om te worden gebruikt tijdens het rijden."@nl ;
+       skos:prefLabel "Aantal zitplaatsen"@nl .
+
+
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v101
 :v101 rdf:type owl:NamedIndividual ,
                skos:Concept ;
       skos:inScheme :s2 ;
       skos:definition "Een volgnummer ter aanduiding van een uitbreiding op de basisgoedkeuring. Voor iedere basisgoedkeuring begint een reeks volgnummers met 01."@nl ;
       skos:prefLabel "EEG uitbreiding goedkeuringsnummer"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1010
+:v1010 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "De omschrijving van de europese codering type carrosserie."@nl ;
+       skos:prefLabel "Subcategorie voertuig europees omschrijving"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1011
+:v1011 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition """Volgnummer ter aanduiding van een wijziging op een uitvoering van volgnummer een Europese subcategorie.
+Voor iedere registratie is het volgnummer 1 hoger. Dit is geen Europees gegeven, maar het wordt gebruikt om het aantal voorkomens te kunnen vastleggen."""@nl ;
+       skos:prefLabel "Subcategorie voertuig volgnummer"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1012
+:v1012 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Europese codering voor het type carrosserie voor speciale doeleinden van een voertuig."@nl ;
+       skos:prefLabel "Subcategorie voertuig europees"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v102
@@ -144,12 +517,106 @@ skos:ConceptScheme rdf:type owl:Class .
       skos:prefLabel "EEG uitvoeringscode"@nl .
 
 
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1030
+:v1030 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Nominaal continu maximumvermogen elektrovermogen gemeten over 15 minuten."@nl ;
+       skos:prefLabel "Max vermogen 15 minuten"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1031
+:v1031 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Elektrisch verbruik gemeten bij een op een rollenbank rijdend extem oplaadbaar hybride voertuig tijdens een rit volgens de WLTP test onder belasting van een gestandaardiseerde stadsrit."@nl ;
+       skos:prefLabel "Actie radius extern opladen stad wltp"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1032
+:v1032 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Gewogen CO2 uitstoot gemeten bij een op een rollenbank rijdend voertuig tijdens een rit volgens de WLTP test onder gecombineerde belasting."@nl ;
+       skos:prefLabel "Emissie co2 gewogen gecombineerd wltp"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1033
+:v1033 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Uitstoot deeltjes (massa) gemeten bij een op een rollenbank rijdend voertuig tijdens een rit volgens de WLTP type 1 test."@nl ;
+       skos:prefLabel "Emissie deeltjes type1 wltp"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1035
+:v1035 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "De uitstoot van het aantal deeltjes, uitgedrukt in g/km, gemeten tijdens een test op een rollenbank."@nl ;
+       skos:prefLabel "Uitstoot deeltjes (licht)"@nl .
+
+
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v104
 :v104 rdf:type owl:NamedIndividual ,
                skos:Concept ;
       skos:inScheme :s2 ;
       skos:definition "De code van een variant binnen een Europees voertuigtype."@nl ;
       skos:prefLabel "EEG variantcode"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1040
+:v1040 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Actieradius gemeten bij een op een rollenbank rijdend extem oplaadbaar hybride voertuig tijdens een rit volgens de WLTP test onder gecombineerde belasting."@nl ;
+       skos:prefLabel "Actie radius extern opladen wltp"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1041
+:v1041 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Gewogen brandstofverbruik gemeten bij een op een rollenbank rijdend voertuig tijdens een rit volgens de WLTP test onder gecombineerde belasting."@nl ;
+       skos:prefLabel "Brandstof verbruik gewogen gecombineerd wltp"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1042
+:v1042 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Brandstofverbruik gemeten bij een op een rollenbank rijdend voertuig tijdens een rit volgens de WLTP test onder gecombineerde belasting."@nl ;
+       skos:prefLabel "Brandstof verbruik gecombineerd wltp"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1043
+:v1043 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Het aantal omwentelingen per minuut van de motor bij de meting van het geluidsniveau van een stilstaand voertuig."@nl ;
+       skos:prefLabel "Toerental geluidsniveau"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1047
+:v1047 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Nettomaximumvermogen elektrisch."@nl ;
+       skos:prefLabel "Netto max vermogen elektrisch"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1048
+:v1048 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:prefLabel "Actie radius enkel elektrisch stad wltp"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1049
+:v1049 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:prefLabel "Elektrisch verbruik enkel elektrisch wltp"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v105
@@ -160,12 +627,78 @@ skos:ConceptScheme rdf:type owl:Class .
       skos:prefLabel "EEG/ECE voertuig categorie bij type"@nl .
 
 
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1050
+:v1050 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "De uitstoot van het aantal deeltjes, uitgedrukt in g/kWh, gemeten tijdens een test van de motor op een vermogensbank."@nl ;
+       skos:prefLabel "Uitstoot deeltjes (zwaar)"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1053
+:v1053 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "CO2 uitstoot gemeten bij een op een rollenbank rijdend voertuig tijdens een rit volgens de WLTP test onder gecombineerde belasting."@nl ;
+       skos:prefLabel "Emissie co2 gecombineerd wltp"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1055
+:v1055 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:prefLabel "Emissieklasse"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1057
+:v1057 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Maximumelektrovermogen gemeten over 60 minuten."@nl ;
+       skos:prefLabel "Max vermogen 60 minuten"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1058
+:v1058 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Elektrisch verbruik gemeten bij een op een rollenbank rijdend extem oplaadbaar hybride voertuig tijdens een rit volgens de WLTP test onder gecombineerde belasting."@nl ;
+       skos:prefLabel "Elektrisch verbruik extern opladen wltp"@nl .
+
+
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v106
 :v106 rdf:type owl:NamedIndividual ,
                skos:Concept ;
       skos:inScheme :s2 ;
       skos:definition "Einddatum van de restantvoorraadregeling bij een uitvoering gebaseerd op de beëindiging van een deelrichtlijn. De periode tussen de begin- en einddatum geldt als restantvoorraadperiode, de grenzen behoren tot de periode. Na deze periode mag een voertuig niet meer via de versnelde kentekenaanvraag worden toegelaten."@nl ;
       skos:prefLabel "Einddatum restant voorraad"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1061
+:v1061 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:prefLabel "Brandstof omschrijving"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1062
+:v1062 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Actieradius gemeten bij een op een rollenbank rijdend puur elektrisch voertuig tijdens een rit volgens de WLTP test onder gecombineerde belasting."@nl ;
+       skos:prefLabel "Actie radius enkel elektrisch wltp"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1063
+:v1063 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition """Klasse van het hybride elektrisch voertuig.
+Mogelijke waarden zijn:
+OVC-HEV = Off vehicle-charging hybride elektrisch voertuig 
+NOVC-HEV = Not off-vehicle charging hybride elektrisch voertuig OVC-FCHV = Off-vehicle charging fuel cell hybride voertuig 
+NOVC-FCHV = Not off-vehicle charging fuel cell hybride voertuig"""@nl ;
+       skos:prefLabel "Klasse hybride elektrisch voertuig"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v107
@@ -176,6 +709,13 @@ skos:ConceptScheme rdf:type owl:Class .
       skos:prefLabel "Einddatum uitvoering"@nl .
 
 
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1071
+:v1071 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:prefLabel "Type Carrosserie Europese omschrijving"@nl .
+
+
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v108
 :v108 rdf:type owl:NamedIndividual ,
                skos:Concept ;
@@ -184,12 +724,84 @@ skos:ConceptScheme rdf:type owl:Class .
       skos:prefLabel "Electromotor af fabriek indicator"@nl .
 
 
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1080
+:v1080 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition """De wettelijk toegestane maximummassa op de as, afgeleid van de maximum aslast technisch toegestane maximummassa. Zo nodig is deze verminderd
+aan de hand van wettelijke bepalingen of op verzoek van de aanvrager van het kentekenbewijs."""@nl ;
+       skos:prefLabel "Wettelijk toegestane maximum aslast"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1081
+:v1081 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition """Dit is de spoorbreedte van een as van een voertuig.
+
+Met spoorbreedte van een as wordt de horizontale afstand tussen het hart van het linker- en rechterwiel van die as bedoeld, gemeten op het wegdek.
+
+Een samenstel van wielen die op 1 wielnaaf zijn gemonteerd (dubbellucht) wordt dit geval aangemerkt als 1 wiel. De RDW legt dit gegeven alleen vast bij personenauto's, bedrijfsauto's en bussen met een wettelijk toegestane maximummassa niet meer dan 3500 kg."""@nl ;
+       skos:prefLabel "Spoorbreedte"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1083
+:v1083 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition """Code die aangeeft wat het weggedrag is van een aangedreven as. De volgende codes worden gebruikt:
+• L = Luchtvering
+• G = Gelijkwaardig aan luchtvering
+• A = Anders dan luchtvering
+Dit gegeven wordt alleen vastgelegd voor bedrijfsauto's en bussen met een wettelijk toegestane maximummassa hoger dan 3500 kg."""@nl ;
+       skos:prefLabel "Weggedrag code"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1085
+:v1085 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:exactMatch :v215 ;
+       skos:inScheme :s1 ;
+       skos:definition "Codering die aangeeft of het voertuig een vooras of achteras heeft."@nl ;
+       skos:prefLabel "Plaatscode as"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1087
+:v1087 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "De technisch toegestane maximummassa van de as, opgegeven door de fabrikant van het voertuig."@nl ;
+       skos:prefLabel "Technisch toegestane maximum aslast"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1088
+:v1088 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition "Het aantal assen van een voertuig."@nl ;
+       skos:prefLabel "Aantal assen"@nl .
+
+
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v109
 :v109 rdf:type owl:NamedIndividual ,
                skos:Concept ;
       skos:inScheme :s2 ;
       skos:definition "Het gewogen elektriciteitsverbruik tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank."@nl ;
       skos:prefLabel "Elektrisch verbruik combinatie"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1090
+:v1090 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:prefLabel "Carrosserie voertuig nummer Europese omschrijving"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1091
+:v1091 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:prefLabel "Carrosserie voertuig nummer code volgnummer"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v11
@@ -206,6 +818,32 @@ skos:ConceptScheme rdf:type owl:Class .
       skos:inScheme :s2 ;
       skos:definition "Het elektriciteitsverbruik tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank van toepassing op een extern oplaadbaar hybride elektrisch voertuig, met een oplading van buitenaf gewogen gecombineerd volgens de berekening in de richtlijn."@nl ;
       skos:prefLabel "Elektrisch verbruik gecomb"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1100
+:v1100 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:prefLabel "Voertuigklasse omschrijving"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v1103
+:v1103 rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:inScheme :s1 ;
+       skos:definition """Dit gegeven wordt vastgesteld tijdens de goedkeuring van een voertuig en geeft aan voor welke klasse(n) het voertuig is goedgekeurd.
+Een voertuig mag tot meer dan één klasse behoren. In zo’n geval kan het voertuig voor elke klasse waarin het kan worden ingedeeld, worden goedgekeurd.
+Het gegeven wordt alleen vastgesteld bij voertuigen van de Europese voertuigcategorieën M2 en M3 (bussen)
+Het gegeven kan ontbreken als deze bij een goedkeuring nog niet werd vastgelegd.
+
+Voor voertuigen met een capaciteit van meer dan 22 passagiers, de bestuurder niet meegerekend, bestaan er drie klassen voertuigen: klasse I., voertuigen gebouwd met ruimte voor staande passagiers die vaak in- en uitstappen
+klasse II., voertuigen voornamelijk gebouwd voor het vervoer van zittende passagiers en ontworpen voor het vervoer van staande passagiers in het gangpad en/of op een oppervlak dat niet groter is dan de ruimte voor twee dubbele zitplaatsen;
+klasse III., voertuigen uitsluitend gebouwd voor het vervoer van zittende passagiers.
+
+Voor voertuigen met een capaciteit van maximaal 22 passagiers, de bestuurder niet meegerekend, zijn er twee voertuigklassen:
+klasse A., voertuigen ontworpen voor het vervoer van staande passagiers; een voertuig van deze klasse heeft zitplaatsen en moet ook voorzieningen voor staande passagiers hebben;
+klasse B., voertuigen niet ontworpen voor het vervoer van staande passagiers; een voertuig van deze klasse heeft dus geen voorzieningen voor staande passagiers."""@nl ;
+       skos:prefLabel "Voertuigklasse"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v111
@@ -673,7 +1311,8 @@ skos:ConceptScheme rdf:type owl:Class .
 :v163 rdf:type owl:NamedIndividual ,
                skos:Concept ;
       skos:exactMatch :v32 ;
-      skos:inScheme :s2 ;
+      skos:inScheme :s1 ,
+                    :s2 ;
       skos:definition "Indicator die aangeeft of een as geheven kan worden, d.w.z. zodanig omhoog bewogen dat de wielen tijdens het rijden het wegdek niet raken.  Deze mag alleen de waarde J bevatten  - voor bedrijfsauto als AS-NR-VRTG > 1 en AANT-ASSEN >= 3 en  -voor aanhangwagen als AS-NR-VRTG > 0 en AANT-ASSEN >= 2.  In de andere gevallen moet de waarde N zijn."@nl ;
       skos:prefLabel "Hefas"@nl .
 
@@ -992,6 +1631,14 @@ skos:ConceptScheme rdf:type owl:Class .
       skos:prefLabel "Max massa vrtg techn bovengrens"@nl .
 
 
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v2
+:v2 rdf:type owl:NamedIndividual ,
+             skos:Concept ;
+    skos:inScheme :s1 ;
+    skos:definition "Het nummer van de (fysieke) as vanaf de voorzijde van het voertuig gerekend. Bij pendelassen wordt het nummer bepaald van links naar rechts, gezien vanuit de rijrichting."@nl ;
+    skos:prefLabel "As nummer"@nl .
+
+
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v20
 :v20 rdf:type owl:NamedIndividual ,
               skos:Concept ;
@@ -1173,13 +1820,14 @@ skos:ConceptScheme rdf:type owl:Class .
               skos:Concept ;
      skos:inScheme :s1 ;
      skos:definition "Op deze datum is de laatste eigenaar of houder van het voertuig in het kentekenregister geregistreerd. De datum staat vermeld op het tenaamstellingsbewijs (deel IB) van het papieren kentekenbewijs of voorop het kentekenbewijs op creditcardformaat (de kentekencard), dat de RDW sinds 1 januari 2014 uitgeeft. Met ingang van deze datum is de geregistreerde eigenaar of houder aansprakelijk voor de wettelijke voertuigverplichtingen zoals APK, de wettelijke aansprakelijkheidsverzekering en houderschapsbelasting voor dat voertuig."@nl ;
-     skos:prefLabel "Datum aanvang tenaamstelling"@nl .
+     skos:prefLabel "Datum tenaamstelling"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v220
 :v220 rdf:type owl:NamedIndividual ,
                skos:Concept ;
-      skos:inScheme :s2 ;
+      skos:inScheme :s1 ,
+                    :s2 ;
       skos:definition "Een maat voor de vervuiling van de lucht die uit de uitlaat van een voertuig komt."@nl ;
       skos:prefLabel "Roet uitstoot"@nl .
 
@@ -1852,6 +2500,13 @@ skos:ConceptScheme rdf:type owl:Class .
       skos:prefLabel "Steekproef indicator"@nl .
 
 
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v3
+:v3 rdf:type owl:NamedIndividual ,
+             skos:Concept ;
+    skos:definition "Het logisch volgnummer."@nl ;
+    skos:prefLabel "Bijzonderheid  volgnummer"@nl .
+
+
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v30
 :v30 rdf:type owl:NamedIndividual ,
               skos:Concept ;
@@ -2250,12 +2905,20 @@ skos:ConceptScheme rdf:type owl:Class .
      skos:prefLabel "Maximale  constructiesnelheid  (brom/snorfiets)"@nl .
 
 
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v4
+:v4 rdf:type owl:NamedIndividual ,
+             skos:Concept ;
+    skos:inScheme :s1 ;
+    skos:definition "Code van de bij een voertuig geregistreerde bijzonderheid."@nl ;
+    skos:prefLabel "Bijzonderheid code"@nl .
+
+
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v40
 :v40 rdf:type owl:NamedIndividual ,
               skos:Concept ;
      skos:inScheme :s1 ;
      skos:definition "Aanhangwagen geremd  Hiermee wordt aangegeven wat de wettelijk toegestane massa (in kilogram) van een getrokken geremde aanhangwagen maximaal mag zijn, ongeacht het type aanhangwagen. De RDW registreert dit gegeven bij personenautos."@nl ;
-     skos:prefLabel "Maximum te trekken massa geremd"@nl .
+     skos:prefLabel "Maximum trekken massa geremd"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v41
@@ -2263,7 +2926,7 @@ skos:ConceptScheme rdf:type owl:Class .
               skos:Concept ;
      skos:inScheme :s1 ;
      skos:definition "Aanhangwagen ongeremd  Hiermee wordt aangegeven in kilogram wat de wettelijk toegestane massa van een getrokken ongeremde aanhangwagen maximaal mag zijn, ongeacht het type aanhangwagen."@nl ;
-     skos:prefLabel "Maximum te trekken massa ongeremd"@nl .
+     skos:prefLabel "Maximum trekken massa ongeremd"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v42
@@ -2330,6 +2993,14 @@ skos:ConceptScheme rdf:type owl:Class .
      skos:prefLabel "Nominaal continu maximumvermogen"@nl .
 
 
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v5
+:v5 rdf:type owl:NamedIndividual ,
+             skos:Concept ;
+    skos:inScheme :s1 ;
+    skos:definition "De omschrijving van de bij het voertuig geregistreerde bijzonderheid."@nl ;
+    skos:prefLabel "Bijzonderheid code omschrijving"@nl .
+
+
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v50
 :v50 rdf:type owl:NamedIndividual ,
               skos:Concept ;
@@ -2359,7 +3030,8 @@ skos:ConceptScheme rdf:type owl:Class .
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v54
 :v54 rdf:type owl:NamedIndividual ,
               skos:Concept ;
-     skos:inScheme :s2 ;
+     skos:inScheme :s1 ,
+                   :s2 ;
      skos:definition "Ja/Nee indicator die aangeeft of de betreffende as aangedreven is of niet."@nl ;
      skos:prefLabel "Aangedreven as"@nl .
 
@@ -2402,6 +3074,14 @@ skos:ConceptScheme rdf:type owl:Class .
      skos:inScheme :s2 ;
      skos:definition "Hoogste waarde van het bereik waarbinnen het aantal deuren valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl ;
      skos:prefLabel "Aantal deuren bovengrens"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v6
+:v6 rdf:type owl:NamedIndividual ,
+             skos:Concept ;
+    skos:inScheme :s1 ;
+    skos:definition "Het variabele deel van een bijzonderheid dat bij een bijzonderheid hoort."@nl ;
+    skos:prefLabel "Bijzonderheid variabele tekst"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v60
@@ -2482,6 +3162,14 @@ skos:ConceptScheme rdf:type owl:Class .
      skos:inScheme :s2 ;
      skos:definition "Personenautos, bedrijfsautos, bussen en aanhangwagens: Het aantal wielen waarmee een voertuig is uitgevoerd."@nl ;
      skos:prefLabel "Aantal wielen"@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v7
+:v7 rdf:type owl:NamedIndividual ,
+             skos:Concept ;
+    skos:inScheme :s1 ;
+    skos:definition "De eenheid van het variabele deel."@nl ;
+    skos:prefLabel "Bijzonderheid eenheid"@nl .
 
 
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v70
@@ -2648,7 +3336,8 @@ skos:ConceptScheme rdf:type owl:Class .
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v89
 :v89 rdf:type owl:NamedIndividual ,
               skos:Concept ;
-     skos:inScheme :s2 ;
+     skos:inScheme :s1 ,
+                   :s2 ;
      skos:definition "Volgnummer binnen Indeling van de klasse om de gekoppelde klasse aan een carrosserie te identificeren en uniek te maken."@nl ;
      skos:prefLabel "Carrosserie klasse volgnummer"@nl .
 
@@ -2681,7 +3370,8 @@ skos:ConceptScheme rdf:type owl:Class .
 ###  http://www.me-datastudio.nl/vocabularies/voertuig#v92
 :v92 rdf:type owl:NamedIndividual ,
               skos:Concept ;
-     skos:inScheme :s2 ;
+     skos:inScheme :s1 ,
+                   :s2 ;
      skos:definition "Volgnummer binnen Carrosserie voertuig per voertuig-id"@nl ;
      skos:prefLabel "Carrosserie volgnummer"@nl .
 
@@ -2740,38 +3430,6 @@ skos:ConceptScheme rdf:type owl:Class .
      skos:inScheme :s2 ;
      skos:definition "Een volgnummer ter aanduiding van een basisgoedkeuring binnen een richtlijn van een bepaalde goedkeuringsinstantie."@nl ;
      skos:prefLabel "EEG basis  goedkeuringsnummer"@nl .
-
-
-#################################################################
-#    Annotations
-#################################################################
-
-:v1 skos:definition "Afwijkende maximum snelheid"@nl ;
-    skos:prefLabel "Afwijkende maximum snelheid"@nl .
-
-
-:v2 skos:definition "Het nummer van de (fysieke) as vanaf de voorzijde van het voertuig gerekend. Bij pendelassen wordt het nummer bepaald van links naar rechts, gezien vanuit de rijrichting."@nl ;
-    skos:prefLabel "As nummer"@nl .
-
-
-:v3 skos:prefLabel "Bijzonderheid  volgnummer"@nl ;
-    skos:definition "Het logisch volgnummer."@nl .
-
-
-:v4 skos:prefLabel "Bijzonderheid code"@nl ;
-    skos:definition "Code van de bij een voertuig geregistreerde bijzonderheid."@nl .
-
-
-:v5 skos:prefLabel "Bijzonderheid code omschrijving"@nl ;
-    skos:definition "De omschrijving van de bij het voertuig geregistreerde bijzonderheid."@nl .
-
-
-:v6 skos:definition "Het variabele deel van een bijzonderheid dat bij een bijzonderheid hoort."@nl ;
-    skos:prefLabel "Bijzonderheid variabele tekst"@nl .
-
-
-:v7 skos:prefLabel "Bijzonderheid eenheid"@nl ;
-    skos:definition "De eenheid van het variabele deel."@nl .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
