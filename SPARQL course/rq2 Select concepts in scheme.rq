@@ -10,6 +10,7 @@ prefix soc: <http://www.socrata.com/rdf/terms#>
 construct {
   #create new Class for every skos ConceptScheme
   ?conceptsscheme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+  ?conceptsscheme rdfs:label ?cslabel .
   ?conceptsscheme skos:prefLabel ?cslabel .
   ?conceptsscheme skos:definition ?csdefinition .
   
@@ -25,6 +26,7 @@ construct {
 WHERE {
  
   ?conceptsscheme ?p skos:ConceptScheme ;           #From SKOS vocabulary
+                  skos:prefLabel ?cslabel ;         #Get label as variable for construct
                    skos:prefLabel "Gekentekend voertuig schema"@nl . #A specific Concept Scheme. See rq1 which scheme's are available
   OPTIONAL {?conceptsscheme skos:definition ?csdefinition .}   
                   
