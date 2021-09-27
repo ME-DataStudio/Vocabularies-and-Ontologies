@@ -7,4 +7,4 @@ WHERE {
   ?subject ?predicate skos:ConceptScheme ;
            skos:prefLabel ?object .
 }
-LIMIT 25
+
