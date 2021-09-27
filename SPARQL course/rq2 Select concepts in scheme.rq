@@ -1,0 +1,35 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix ds: <https://opendata.rdw.nl/resource/_5k74-3jha/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix : <http://www.me-datastudio.nl/vocabularies/voertuig#>
+prefix soc: <http://www.socrata.com/rdf/terms#>
+
+construct {
+  #create new Class for every skos ConceptScheme
+  ?conceptsscheme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+  ?conceptsscheme skos:prefLabel ?cslabel .
+  ?conceptsscheme skos:definition ?csdefinition .
+  
+  #Every SKOS:Concept to OWL:Class with rdfs:label and skos:definition
+  ?concept <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+  ?concept rdfs:label ?clabel .
+  ?concept skos:definition ?cdefinition .
+  
+  #Add the standard Datatype- and ObjectProperties
+  <http://www.me-datastudio.nl/vocabularies/voertuig#heeftWaarde> rdf:type owl:DatatypeProperty .
+  <http://www.me-datastudio.nl/vocabularies/voertuig#heeftKwaliteit> rdf:type owl:ObjectProperty .
+}
+WHERE {
+ 
+  ?conceptsscheme ?p skos:ConceptScheme ;           #From SKOS vocabulary
+                   skos:prefLabel "Gekentekend voertuig schema"@nl . #A specific Concept Scheme. See rq1 which scheme's are available
+  OPTIONAL {?conceptsscheme skos:definition ?csdefinition .}   
+                  
+  ?concept rdf:type skos:Concept ;
+           skos:prefLabel ?clabel ;
+           skos:inScheme ?conceptsscheme .
+  OPTIONAL {?concept skos:definition ?cdefinition .} 
+}
