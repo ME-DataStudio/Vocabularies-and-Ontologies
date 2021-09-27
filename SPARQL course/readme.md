@@ -21,3 +21,6 @@ Now we can start the convert the RDW Thesaurus into an ontology with the help of
   
 With rq1 in this folder we can see which Concept Schemes are within the RDW Thesaurus and the label it has.
 
+## Create the ontology from Thesaurus ##
+
+With rq2 we convert the thesaurus into a basic ontology bij changing the concepts into classes.
