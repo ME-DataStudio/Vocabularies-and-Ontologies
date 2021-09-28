@@ -17,9 +17,9 @@ We start with the preliminaries:
 - Then click on __+ select files...__ and browse to the folder where you downloaded the RDW Thesaurus
   
   
-Now we can start the convert the RDW Thesaurus into an ontology with the help of SPARQL.  
+Now we can start the conversion of the RDW Thesaurus into an ontology with the help of SPARQL.  
   
-With rq1 in this folder we can see which Concept Schemes are within the RDW Thesaurus and the label it has.
+With rq1 in this folder we can see which ConceptSchemes are within the RDW Thesaurus and what label it has.
 
 ## Create the ontology from Thesaurus ##
 
