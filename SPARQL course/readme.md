@@ -23,4 +23,4 @@ With rq1 in this folder we can see which Concept Schemes are within the RDW Thes
 
 ## Create the ontology from Thesaurus ##
 
-With rq2 we convert the thesaurus into a basic ontology bij changing the concepts into classes.
+With rq2 we convert the thesaurus into a basic ontology. Changing the concepts into classes.
