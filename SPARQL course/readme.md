@@ -1,7 +1,7 @@
 # SPARQL course #
 
 ## Goal ##
-We want to convert an Thesaurus into a Knowledge base and add the data from RDW Open data. The red circles in pictures down below are coming from the Thesaurus. The green circles come from RDW Open data.
+We want to convert a Thesaurus into a Knowledge base and add the data from RDW Open data. The red circles in pictures down below are coming from the Thesaurus. The green circles come from RDW Open data.
 
 ![image](https://user-images.githubusercontent.com/75776348/134909745-62542b9e-6a81-4d09-bfe7-82a3c31270fc.png)
 
