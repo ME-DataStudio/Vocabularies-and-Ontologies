@@ -10,6 +10,7 @@ We want to convert a Thesaurus into a Knowledge base and add the data from RDW O
 
 ## Start ##
 We start with the preliminaries:
+- Download and install Protege Ontology Management Tool from Stanford desktop version: https://protege.stanford.edu/products.php#desktop-protege
 - Fuseki server: Download de Jena Fuseki server from https://jena.apache.org/download/index.cgi ( at time of writing version 4.2.0 ) and start fuseki-server.bat from the command line. Fuseki GUI is available at http://localhost:3030.  
 - Download the RDW Thesaurus from https://github.com/ME-DataStudio/Vocabularies-and-Ontologies/blob/main/VoertuigBegrippen.ttl. One can see a readable version at begrippenXL https://www.begrippenxl.nl/rdw/nl/  
 - Within Fuseki open __manage datasets__ tab and click __add new dataset__  
