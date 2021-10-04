@@ -1,0 +1,80 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix ds: <https://opendata.rdw.nl/resource/_5k74-3jha/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix : <http://www.me-datastudio.nl/vocabularies/voertuig#>
+prefix soc: <http://www.socrata.com/rdf/terms#>
+prefix d: <https://opendata.rdw.nl/resource/nmwb-dqkz/>
+
+construct {
+   
+  ?uri rdf:type :v312 , owl:Individual .
+  ?uri302 rdf:type :v302 , owl:Individual .
+  ?uri303 rdf:type :v303 , owl:Individual .
+  ?uri304 rdf:type :v304 , owl:Individual .
+  ?uri305 rdf:type :v305 , owl:Individual .
+  ?uri306 rdf:type :v306 , owl:Individual .
+  ?uri307 rdf:type :v307 , owl:Individual .
+  ?uri308 rdf:type :v308 , owl:Individual .
+  ?uri309 rdf:type :v309 , owl:Individual .
+  ?uri310 rdf:type :v310 , owl:Individual .
+  ?uri311 rdf:type :v311 , owl:Individual .
+  
+  ?uri :heeftKwaliteit ?uri303 .
+  ?uri :heeftKwaliteit ?uri304 .
+  ?uri :heeftKwaliteit ?uri305 .
+  ?uri :heeftKwaliteit ?uri306 .
+  ?uri :heeftKwaliteit ?uri307 .
+  ?uri :heeftKwaliteit ?uri308 .
+  ?uri :heeftKwaliteit ?uri309 .
+  ?uri :heeftKwaliteit ?uri310 .
+  ?uri :heeftKwaliteit ?uri311 .
+  ?uri :heeftKwaliteit ?uri302 .
+
+  ?uri311 :heeftWaarde ?vnrint .
+  ?uri303 :heeftWaarde ?gevelnaam .
+  ?uri304 :heeftWaarde ?naam_bedr  .
+  ?uri305 :heeftWaarde ?straat .
+  ?uri306 :heeftWaarde ?huisnummer .
+  ?uri307 :heeftWaarde ?huisnummer_toev .
+  ?uri308 :heeftWaarde ?postcode_num .
+  ?uri309 :heeftWaarde ?postcode_alfa .
+  ?uri310 :heeftWaarde ?plaats .
+  ?uri302 :heeftWaarde ?erkenning .
+  }
+WHERE {
+  
+  
+  ?bedrijf soc:rowID ?rowid . 
+  ?bedrijf ds:volgnummer ?vnro .
+  ?bedrijf ds:naam_bedrijf ?naam_bedr .
+  ?bedrijf ds:gevelnaam ?gevelnaam .
+  ?bedrijf ds:straat ?straat .
+  ?bedrijf ds:huisnummer ?huisnummer .
+  ?bedrijf ds:huisnummer_toevoeging ?huisnummer_toev .
+  ?bedrijf ds:postcode_numeriek ?postcode_num .
+  ?bedrijf ds:postcode_alfanumeriek ?postcode_alfa .
+  ?bedrijf ds:plaats ?plaats .
+#Erkenningen toevoegen
+  
+  ?erkid d:volgnummer ?vnro .
+  ?erkid d:erkenning ?erkenning .
+
+  BIND ("http://www.me-datastudio.nl/vocabularies/voertuig#" AS ?base) 
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid))) AS ?uri) 
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v302")) AS ?uri302)
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v303")) AS ?uri303)
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v304")) AS ?uri304)
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v305")) AS ?uri305)
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v306")) AS ?uri306)
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v307")) AS ?uri307)
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v308")) AS ?uri308)
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v309")) AS ?uri309)
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v310")) AS ?uri310)
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v311")) AS ?uri311)
+   BIND (xsd:integer(?vnro) as ?vnrint) 
+
+}
+
