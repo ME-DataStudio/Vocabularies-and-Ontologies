@@ -14,10 +14,12 @@ construct {
   ?conceptsscheme skos:prefLabel ?cslabel .
   ?conceptsscheme skos:definition ?csdefinition .
   
-  #Every SKOS:Concept to OWL:Class with rdfs:label and skos:definition
+  #Every SKOS:Concept to OWL:Class with rdfs:label and skos:definition and subClassOf Kwaliteit
+  <http://www.me-datastudio.nl/vocabularies/voertuig#Kwaliteit> rdf:type <http://www.w3.org/2002/07/owl#Class>
   ?concept <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
   ?concept rdfs:label ?clabel .
   ?concept skos:definition ?cdefinition .
+  ?concept rdfs:subClassOf :Kwaliteit .
   
   #Add the standard Datatype- and ObjectProperties
   <http://www.me-datastudio.nl/vocabularies/voertuig#heeftWaarde> rdf:type owl:DatatypeProperty .
