@@ -29,7 +29,12 @@ WHERE {
  
   ?conceptsscheme ?p skos:ConceptScheme ;           #From SKOS vocabulary
                   skos:prefLabel ?cslabel ;         #Get label as variable for construct
-                   skos:prefLabel "Gekentekend voertuig schema"@nl . #A specific Concept Scheme. See rq1 which scheme's are available
+                  #Unmark one of the specific Concept Schemes. See rq1 which scheme's are available:
+                  #skos:prefLabel "Gekentekend voertuig schema"@nl . 
+                  #skos:prefLabel"Typegoedkeuring schema"@nl .
+                  #skos:prefLabel"Keuringen schema"@nl .
+                  skos:prefLabel"Erkende Bedrijven schema"@nl .
+                  #skos:prefLabel"Terugroepregister schema"@nl .
   OPTIONAL {?conceptsscheme skos:definition ?csdefinition .}   
                   
   ?concept rdf:type skos:Concept ;
