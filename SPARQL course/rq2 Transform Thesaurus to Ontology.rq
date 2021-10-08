@@ -4,7 +4,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix ds: <https://opendata.rdw.nl/resource/_5k74-3jha/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
-prefix : <http://www.me-datastudio.nl/vocabularies/voertuig#>
+prefix : <http://www.me-datastudio.nl/voc/voertuig#>
 prefix soc: <http://www.socrata.com/rdf/terms#>
 
 construct {
@@ -15,15 +15,15 @@ construct {
   ?conceptsscheme skos:definition ?csdefinition .
   
   #Every SKOS:Concept to OWL:Class with rdfs:label and skos:definition and subClassOf Kwaliteit
-  <http://www.me-datastudio.nl/vocabularies/voertuig#Kwaliteit> rdf:type <http://www.w3.org/2002/07/owl#Class>
+  <http://www.me-datastudio.nl/voc/voertuig#Kwaliteit> rdf:type <http://www.w3.org/2002/07/owl#Class>
   ?concept <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
   ?concept rdfs:label ?clabel .
   ?concept skos:definition ?cdefinition .
   ?concept rdfs:subClassOf :Kwaliteit .
   
   #Add the standard Datatype- and ObjectProperties
-  <http://www.me-datastudio.nl/vocabularies/voertuig#heeftWaarde> rdf:type owl:DatatypeProperty .
-  <http://www.me-datastudio.nl/vocabularies/voertuig#heeftKwaliteit> rdf:type owl:ObjectProperty .
+  <http://www.me-datastudio.nl/voc/voertuig#heeftWaarde> rdf:type owl:DatatypeProperty .
+  <http://www.me-datastudio.nl/voc/voertuig#heeftKwaliteit> rdf:type owl:ObjectProperty .
 }
 WHERE {
  
