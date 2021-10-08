@@ -4,13 +4,13 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix ds: <https://opendata.rdw.nl/resource/_5k74-3jha/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
-prefix : <http://www.me-datastudio.nl/vocabularies/voertuig#>
+prefix : <http://www.me-datastudio.nl/voc/voertuig#>
 prefix soc: <http://www.socrata.com/rdf/terms#>
 prefix d: <https://opendata.rdw.nl/resource/nmwb-dqkz/>
 
 construct {
    
-  ?uri rdf:type :v312 , owl:Individual .
+  ?uri312 rdf:type :v312 , owl:Individual .
   ?uri302 rdf:type :v302 , owl:Individual .
   ?uri303 rdf:type :v303 , owl:Individual .
   ?uri304 rdf:type :v304 , owl:Individual .
@@ -22,16 +22,16 @@ construct {
   ?uri310 rdf:type :v310 , owl:Individual .
   ?uri311 rdf:type :v311 , owl:Individual .
   
-  ?uri :heeftKwaliteit ?uri303 .
-  ?uri :heeftKwaliteit ?uri304 .
-  ?uri :heeftKwaliteit ?uri305 .
-  ?uri :heeftKwaliteit ?uri306 .
-  ?uri :heeftKwaliteit ?uri307 .
-  ?uri :heeftKwaliteit ?uri308 .
-  ?uri :heeftKwaliteit ?uri309 .
-  ?uri :heeftKwaliteit ?uri310 .
-  ?uri :heeftKwaliteit ?uri311 .
-  ?uri :heeftKwaliteit ?uri302 .
+  ?uri312 :heeftKwaliteit ?uri303 .
+  ?uri312 :heeftKwaliteit ?uri304 .
+  ?uri312 :heeftKwaliteit ?uri305 .
+  ?uri312 :heeftKwaliteit ?uri306 .
+  ?uri312 :heeftKwaliteit ?uri307 .
+  ?uri312 :heeftKwaliteit ?uri308 .
+  ?uri312 :heeftKwaliteit ?uri309 .
+  ?uri312 :heeftKwaliteit ?uri310 .
+  ?uri312 :heeftKwaliteit ?uri311 .
+  ?uri312 :heeftKwaliteit ?uri302 .
 
   ?uri311 :heeftWaarde ?vnrint .
   ?uri303 :heeftWaarde ?gevelnaam .
@@ -62,8 +62,8 @@ WHERE {
   ?erkid d:volgnummer ?vnro .
   ?erkid d:erkenning ?erkenning .
 
-  BIND ("http://www.me-datastudio.nl/vocabularies/voertuig#" AS ?base) 
-  BIND (IRI(CONCAT(?base, xsd:string(?rowid))) AS ?uri) 
+  BIND ("http://www.me-datastudio.nl/voc/voertuig#" AS ?base) 
+  BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v312")) AS ?uri312) 
   BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v302")) AS ?uri302)
   BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v303")) AS ?uri303)
   BIND (IRI(CONCAT(?base, xsd:string(?rowid),"v304")) AS ?uri304)
