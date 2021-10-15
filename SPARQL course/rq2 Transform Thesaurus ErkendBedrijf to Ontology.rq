@@ -9,39 +9,34 @@ prefix soc: <http://www.socrata.com/rdf/terms#>
 
 construct {
   #create new Classes ErkendBedrijf en Kwaliteit
-  <http://www.me-datastudio.nl/vocabularies/voertuig#ErkendBedrijf> rdf:type <http://www.w3.org/2002/07/owl#Class> .
+  <http://www.me-datastudio.nl/vocabularies/voertuig#v312> rdf:type <http://www.w3.org/2002/07/owl#Class> .
+  :v312 skos:prefLabel "Erkend bedrijf"@nl .
+  :v312 rdfs:label "Erkend bedrijf"@nl .
   <http://www.me-datastudio.nl/vocabularies/voertuig#Kwaliteit> rdf:type <http://www.w3.org/2002/07/owl#Class> .
    #Add the standard Datatype- and ObjectProperties
   <http://www.me-datastudio.nl/vocabularies/voertuig#heeftWaarde> rdf:type owl:DatatypeProperty .
   <http://www.me-datastudio.nl/vocabularies/voertuig#heeftKwaliteit> rdf:type owl:ObjectProperty .
-  
-  #create new Class for every skos ConceptScheme
-  ?conceptsscheme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-  ?conceptsscheme rdfs:label ?cslabel .
-  ?conceptsscheme skos:prefLabel ?cslabel .
-  ?conceptsscheme skos:definition ?csdefinition .
   
   #Every SKOS:Concept to OWL:Class with rdfs:label and skos:definition and subClassOf Kwaliteit
   ?concept <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
   ?concept rdfs:label ?clabel .
   ?concept skos:definition ?cdefinition .
   ?concept rdfs:subClassOf :Kwaliteit .
-  <http://www.me-datastudio.nl/vocabularies/voertuig#ErkendBedrijf> <http://www.me-datastudio.nl/vocabularies/voertuig#heeftKwaliteit> ?concept .
-  
- 
+  ?uripred rdf:type owl:ObjectProperty .
+  ?uripred rdfs:subPropertyOf :heeftKwaliteit .
+  ?uripred rdfs:domain :v312 .
+  ?uripred rdfs:range ?concept .
 }
 WHERE {
- 
   ?conceptsscheme ?p skos:ConceptScheme ;           #From SKOS vocabulary
                   skos:prefLabel ?cslabel ;         #Get label as variable for construct
-                  
                   skos:prefLabel"Erkende Bedrijven schema"@nl .
-                
-  OPTIONAL {?conceptsscheme skos:definition ?csdefinition .}   
-                  
   ?concept rdf:type skos:Concept ;
            skos:prefLabel ?clabel ;
            skos:inScheme ?conceptsscheme .
-  OPTIONAL {?concept skos:definition ?cdefinition .} 
+  ?concept skos:definition ?cdefinition .
   
+ BIND ("http://www.me-datastudio.nl/vocabularies/voertuig#" AS ?base) 
+ BIND (IRI(CONCAT(?base, "heeft",REPLACE(?clabel," ",""))) AS ?uripred) 
+ 
 }
