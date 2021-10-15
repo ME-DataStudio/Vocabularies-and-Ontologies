@@ -8,6 +8,13 @@ prefix : <http://www.me-datastudio.nl/vocabularies/voertuig#>
 prefix soc: <http://www.socrata.com/rdf/terms#>
 
 construct {
+  #create new Classes ErkendBedrijf en Kwaliteit
+  <http://www.me-datastudio.nl/vocabularies/voertuig#ErkendBedrijf> rdf:type <http://www.w3.org/2002/07/owl#Class> .
+  <http://www.me-datastudio.nl/vocabularies/voertuig#Kwaliteit> rdf:type <http://www.w3.org/2002/07/owl#Class> .
+   #Add the standard Datatype- and ObjectProperties
+  <http://www.me-datastudio.nl/vocabularies/voertuig#heeftWaarde> rdf:type owl:DatatypeProperty .
+  <http://www.me-datastudio.nl/vocabularies/voertuig#heeftKwaliteit> rdf:type owl:ObjectProperty .
+  
   #create new Class for every skos ConceptScheme
   ?conceptsscheme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
   ?conceptsscheme rdfs:label ?cslabel .
@@ -15,30 +22,26 @@ construct {
   ?conceptsscheme skos:definition ?csdefinition .
   
   #Every SKOS:Concept to OWL:Class with rdfs:label and skos:definition and subClassOf Kwaliteit
-  <http://www.me-datastudio.nl/vocabularies/voertuig#Kwaliteit> rdf:type <http://www.w3.org/2002/07/owl#Class> .
   ?concept <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
   ?concept rdfs:label ?clabel .
   ?concept skos:definition ?cdefinition .
   ?concept rdfs:subClassOf :Kwaliteit .
+  <http://www.me-datastudio.nl/vocabularies/voertuig#ErkendBedrijf> <http://www.me-datastudio.nl/vocabularies/voertuig#heeftKwaliteit> ?concept .
   
-  #Add the standard Datatype- and ObjectProperties
-  <http://www.me-datastudio.nl/vocabularies/voertuig#heeftWaarde> rdf:type owl:DatatypeProperty .
-  <http://www.me-datastudio.nl/vocabularies/voertuig#heeftKwaliteit> rdf:type owl:ObjectProperty .
+ 
 }
 WHERE {
  
   ?conceptsscheme ?p skos:ConceptScheme ;           #From SKOS vocabulary
                   skos:prefLabel ?cslabel ;         #Get label as variable for construct
-                  #Unmark one of the specific Concept Schemes. See rq1 which scheme's are available:
-                  #skos:prefLabel "Gekentekend voertuig schema"@nl . 
-                  #skos:prefLabel"Typegoedkeuring schema"@nl .
-                  #skos:prefLabel"Keuringen schema"@nl .
+                  
                   skos:prefLabel"Erkende Bedrijven schema"@nl .
-                  #skos:prefLabel"Terugroepregister schema"@nl .
+                
   OPTIONAL {?conceptsscheme skos:definition ?csdefinition .}   
                   
   ?concept rdf:type skos:Concept ;
            skos:prefLabel ?clabel ;
            skos:inScheme ?conceptsscheme .
   OPTIONAL {?concept skos:definition ?cdefinition .} 
+  
 }
