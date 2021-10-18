@@ -13,7 +13,8 @@ construct {
   :v312 skos:prefLabel "Erkend bedrijf"@nl .
   :v312 rdfs:label "Erkend bedrijf"@nl .
   <http://www.me-datastudio.nl/vocabularies/voertuig#Kwaliteit> rdf:type <http://www.w3.org/2002/07/owl#Class> .
-   #Add the standard Datatype- and ObjectProperties
+  
+  #Add the standard Datatype- and ObjectProperties
   <http://www.me-datastudio.nl/vocabularies/voertuig#heeftWaarde> rdf:type owl:DatatypeProperty .
   <http://www.me-datastudio.nl/vocabularies/voertuig#heeftKwaliteit> rdf:type owl:ObjectProperty .
   
