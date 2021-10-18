@@ -9,29 +9,29 @@ prefix soc: <http://www.socrata.com/rdf/terms#>
 prefix d: <https://opendata.rdw.nl/resource/nmwb-dqkz/>
 
 construct {
-   
-  ?uri312 rdf:type :v312 , owl:Individual .
-  ?uri302 rdf:type :v302 , owl:Individual .
-  ?uri303 rdf:type :v303 , owl:Individual .
-  ?uri304 rdf:type :v304 , owl:Individual .
-  ?uri305 rdf:type :v305 , owl:Individual .
-  ?uri306 rdf:type :v306 , owl:Individual .
-  ?uri307 rdf:type :v307 , owl:Individual .
-  ?uri308 rdf:type :v308 , owl:Individual .
-  ?uri309 rdf:type :v309 , owl:Individual .
-  ?uri310 rdf:type :v310 , owl:Individual .
-  ?uri311 rdf:type :v311 , owl:Individual .
+  # create the instances (optional tot add owl:NamedIndividual)
+  ?uri312 rdf:type :v312 .
+  ?uri302 rdf:type :v302 .
+  ?uri303 rdf:type :v303 .
+  ?uri304 rdf:type :v304 .
+  ?uri305 rdf:type :v305 .
+  ?uri306 rdf:type :v306 .
+  ?uri307 rdf:type :v307 .
+  ?uri308 rdf:type :v308 .
+  ?uri309 rdf:type :v309 .
+  ?uri310 rdf:type :v310 .
+  ?uri311 rdf:type :v311 .
   
-  ?uri312 :heeftKwaliteit ?uri303 .
-  ?uri312 :heeftKwaliteit ?uri304 .
-  ?uri312 :heeftKwaliteit ?uri305 .
-  ?uri312 :heeftKwaliteit ?uri306 .
-  ?uri312 :heeftKwaliteit ?uri307 .
-  ?uri312 :heeftKwaliteit ?uri308 .
-  ?uri312 :heeftKwaliteit ?uri309 .
-  ?uri312 :heeftKwaliteit ?uri310 .
-  ?uri312 :heeftKwaliteit ?uri311 .
-  ?uri312 :heeftKwaliteit ?uri302 .
+  ?uri312 :heeftGevelnaam ?uri303 .
+  ?uri312 :heeftNaam_bedrijf ?uri304 .
+  ?uri312 :heeftStraat ?uri305 .
+  ?uri312 :heeftHuisnummer ?uri306 .
+  ?uri312 :heeftHuisnummer_toevoeging ?uri307 .
+  ?uri312 :heeftKPostcode_nummeriek ?uri308 .
+  ?uri312 :heeftPostcode_alfanummeriek ?uri309 .
+  ?uri312 :heeftPlaats ?uri310 .
+  ?uri312 :heeftVolgnummer ?uri311 .
+  ?uri312 :heeftErkenning ?uri302 .
 
   ?uri311 :heeftWaarde ?vnrint .
   ?uri303 :heeftWaarde ?gevelnaam .
