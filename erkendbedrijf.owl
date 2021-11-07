@@ -1,0 +1,204 @@
+@prefix : <http://www.me-datastudio.nl/vocabularies/voertuig#> .
+@prefix ds: <https://opendata.rdw.nl/resource/_5k74-3jha/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ods: <http://open-data-standards.github.com/2012/01/open-data-standards#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix soc: <http://www.socrata.com/rdf/terms#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterm: <http://purl.org/dc/terms/> .
+@prefix dsbase: <https://opendata.rdw.nl/resource/> .
+@prefix socrata: <http://www.socrata.com/rdf/terms#> .
+@base <http://www.me-datastudio.nl/ontology/erkendbedrijf/> .
+
+<http://www.me-datastudio.nl/ontology/erkendbedrijf/> rdf:type owl:Ontology ;
+                                                       owl:versionInfo "2021-11-07: Initiele versie. Afgeleid uit voertuigbegrippen open data RDW"@nl .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#definition
+skos:definition rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+skos:prefLabel rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftErkenning
+:heeftErkenning rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :heeftKwaliteit ;
+                rdfs:domain :v312 ;
+                rdfs:range :v302 .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftGevelnaam
+:heeftGevelnaam rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :heeftKwaliteit ;
+                rdfs:domain :v312 ;
+                rdfs:range :v303 .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftHuisnummer
+:heeftHuisnummer rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :heeftKwaliteit ;
+                 rdfs:domain :v312 ;
+                 rdfs:range :v306 .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftHuisnummertoevoeging
+:heeftHuisnummertoevoeging rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf :heeftKwaliteit ;
+                           rdfs:domain :v312 ;
+                           rdfs:range :v307 .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftKwaliteit
+:heeftKwaliteit rdf:type owl:ObjectProperty .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftNaambedrijf
+:heeftNaambedrijf rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :heeftKwaliteit ;
+                  rdfs:domain :v312 ;
+                  rdfs:range :v304 .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftPlaats
+:heeftPlaats rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :heeftKwaliteit ;
+             rdfs:domain :v312 ;
+             rdfs:range :v310 .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftPostcodealfanumeriek
+:heeftPostcodealfanumeriek rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf :heeftKwaliteit ;
+                           rdfs:domain :v312 ;
+                           rdfs:range :v309 .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftPostcodenumeriek
+:heeftPostcodenumeriek rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :heeftKwaliteit ;
+                       rdfs:domain :v312 ;
+                       rdfs:range :v308 .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftStraat
+:heeftStraat rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :heeftKwaliteit ;
+             rdfs:domain :v312 ;
+             rdfs:range :v305 .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftVolgnummer
+:heeftVolgnummer rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :heeftKwaliteit ;
+                 rdfs:domain :v312 ;
+                 rdfs:range :v311 .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#heeftWaarde
+:heeftWaarde rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#Kwaliteit
+:Kwaliteit rdf:type owl:Class .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v302
+:v302 rdf:type owl:Class ;
+      rdfs:subClassOf :Kwaliteit ;
+      rdfs:label "Erkenning"@nl ;
+      skos:definition "De erkenning, bevoegdheid, regeling of overeenkomst die het bedrijf in bezit heeft. Wanneer deze tijdelijk ongeldig is, wordt deze wel getoond."@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v303
+:v303 rdf:type owl:Class ;
+      rdfs:subClassOf :Kwaliteit ;
+      rdfs:label "Gevelnaam"@nl ;
+      skos:definition "De gebruiksnaam waaronder het bedrijf ook bekend staat. Deze kan afwijken van naam bedrijf."@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v304
+:v304 rdf:type owl:Class ;
+      rdfs:subClassOf :Kwaliteit ;
+      rdfs:label "Naam bedrijf"@nl ;
+      skos:definition "De officiële naam van het bedrijf zoals deze is geregistreerd bij de Kamer van Koophandel."@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v305
+:v305 rdf:type owl:Class ;
+      rdfs:subClassOf :Kwaliteit ;
+      rdfs:label "Straat"@nl ;
+      skos:definition "De straatnaam van het vestigingsadres."@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v306
+:v306 rdf:type owl:Class ;
+      rdfs:subClassOf :Kwaliteit ;
+      rdfs:label "Huisnummer"@nl ;
+      skos:definition "Het huisnummer van het vestigingsadres."@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v307
+:v307 rdf:type owl:Class ;
+      rdfs:subClassOf :Kwaliteit ;
+      rdfs:label "Huisnummer toevoeging"@nl ;
+      skos:definition "De toevoeging aan het huisnummer van het vestigingsadres."@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v308
+:v308 rdf:type owl:Class ;
+      rdfs:subClassOf :Kwaliteit ;
+      rdfs:label "Postcode numeriek"@nl ;
+      skos:definition "De cijfers van de postcode van het vestigingsadres."@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v309
+:v309 rdf:type owl:Class ;
+      rdfs:subClassOf :Kwaliteit ;
+      rdfs:label "Postcode alfanumeriek"@nl ;
+      skos:definition "De letters van de postcode van het vestigingsadres."@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v310
+:v310 rdf:type owl:Class ;
+      rdfs:subClassOf :Kwaliteit ;
+      rdfs:label "Plaats"@nl ;
+      skos:definition "De vestigingsplaats van het bedrijf."@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v311
+:v311 rdf:type owl:Class ;
+      rdfs:subClassOf :Kwaliteit ;
+      rdfs:label "Volgnummer"@nl ;
+      skos:definition "Nummer waarmee een bedrijf eenduidig is te identificeren binnen de opendata set."@nl .
+
+
+###  http://www.me-datastudio.nl/vocabularies/voertuig#v312
+:v312 rdf:type owl:Class ;
+      rdfs:label "Erkend bedrijf"@nl ;
+      skos:prefLabel "Erkend bedrijf"@nl .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
