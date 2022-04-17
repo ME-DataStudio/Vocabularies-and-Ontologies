@@ -1974,3 +1974,648 @@
 <http://www.me-ds.nl/voc/voertuig#onderdeelVan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.me-ds.nl/voc/voertuig#t12> .
 <http://www.me-ds.nl/voc/voertuig#onderdeelVan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.me-ds.nl/voc/voertuig#t2> .
 <http://www.me-ds.nl/voc/voertuig#onderdeelVan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.me-ds.nl/voc/voertuig#t13> .
+<http://www.me-ds.nl/voc/voertuig#t7154>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het brandstofverbruik tijdens een gestandaardiseerde stadsritcyclus, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7133>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het gewogen elektriciteitsverbruik tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7112>
+        <http://www.w3.org/2004/02/skos/core#definition>  "NOx uitstoot gemeten bij een op een rollenbank rijdend voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t14106>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Volgnummer dat binnen een voertuig-uitvoering een plaatsaanduiding voor het VRTG-ID-NR identificeert."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t3111>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het technische type zoals dit door de fabrikant van een voertuig wordt gebezigd.  Meestal is dit een weinig zeggende codering, in tegenstelling tot de handelsbenaming die in het maatschappelijk verkeer veel vaker wordt gebruikt."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5189>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De door de RDW vastgestelde code met betrekking tot de status van de Europese variant. Deze code geeft aan welk(e) ETK-proces(sen) als laatste een actie heeft (hebben) uitgevoerd met betrekking tot deze Europese typegoedkeuring."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6119>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het aantal cilinders van een verbrandingsmotor. Op het huidige kentekenbewijs wordt dit gegeven vermeld onder de rubriek Aant dl.. Voor Wankelmotoren is de waarde 0 en ook voor elektrische motoren (BRANDST-C-VRTG = E)."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5147>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Laagste waarde van het bereik waarbinnen de maximale massa leeg voertuig valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5126>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Begindatum van de restantvoorraadregeling bij een uitvoering gebaseerd op de beïdiging van een deelrichtlijn. De periode tussen de begin- en einddatum geldt als restantvoorraadperiode, de grenzen behoren tot de periode. Na deze periode mag een voertuig niet meer via de versnelde kentekenaanvraag worden toegelaten."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5105>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Bovengrens van het bereik waarbinnen de maximum snelheid die een voertuig kan halen, beperkt wordt door het ontwerp van het voertuig, moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7162>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De grootste waarde van het bereik van het netto maximale vermogen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7141>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Deeltjes aantal uitstoot gemeten voor op een vermogensbank geplaatste motor, verplichtend bij de testen voor compressie-ontsteking (diesel-achtigen) vanaf euro 5."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6148>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Nationale code voor de brandstof dan wel energiebron van de motor van een voertuig. De codering en de bijbehorende tekst is als volgt: B = Benzine, C = LNG (Liquified Natural Gas), D = Diesel, E = Elektriciteit, G = LPG (Liquified Petroleum Gas), H = CNG (Compressed Natural Gas, aardgas), W = Waterstof, A = Alcohol.  Elektriciteit is geen brandstof maar een energiebron. Echter om aan te kunnen geven dat het voertuig voorzien is van een elektromotor is er voor gekozen om de E te hanteren."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t3119>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De door de RDW vastgestelde code met betrekking tot de status van de Europese typegoedkeuring. Deze code geeft aan welk(e) ETK-proces(sen) als laatste een actie heeft (hebben) uitgevoerd met betrekking tot deze Europese typegoedkeuring. De volgende codes zijn mogelijk:  RT = registreren E-TGK AT = accorderen E-TGK WT = wijzigen E-TGK UT = uitbreiden E-TGK CT = corrigeren E-TGK BT = beëindigen E-TGK IU = intrekken E-TGK"@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12116>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Asnummer van de voertuiguitvoering (van voren geteld) van de as waarvan gegevens in de as uitvoering worden beschreven."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5176>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Hoogste waarde van het bereik waarbinnen het aantal zitplaatsen valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6106>
+        <http://www.w3.org/2004/02/skos/core#definition>  "CO uitstoot van benzine voertuig bij een type VI test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5155>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen de technische maximum massa van het beladen voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5134>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Ondergrens van het bereik waarbinnen de maximum snelheid die een voertuig kan halen, beperkt wordt door het ontwerp van het voertuig, moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5113>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Hoogste waarde van het bereik waarbinnen de maximale massa leeg voertuig valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7170>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een motor voorzien is van luchtinjectie."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7149>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De emissie van C02 tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7128>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De emissie van C02 tijdens een gestandaardiseerde stadsritcyclus, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7107>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Methaan emissie gemeten volgens de ETC test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6135>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een voertuig af fabriek extern oplaadbaar is."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12103>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6114>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5163>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Laagste waarde van het bereik waarbinnen het aantal deuren valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5142>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De hoogste van alle bovengrenzen van het bereik waarbinnen de wettelijk toegestane maximum massa samenstel moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5121>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De laagste van alle ondergrenzen van het bereik waarbinnen de maximum massa geremde aanhangwagen moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7157>
+        <http://www.w3.org/2004/02/skos/core#definition>  "CO uitstoot van benzine voertuig bij een type VI test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6143>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een bepaalde motoruitvoering af fabriek voorzien is van een LPG-installatie. Dit is niet altijd direct af te leiden uit de brandstofcodes omdat die gevuld worden aan de hand van de grootte van de brandstoftanks. Het attribuut is van belang voor het bepalen van de juiste emissiewaarden die weer van belang zijn voor eventuele subsidie op de aanschafprijs."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6122>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen het toerental geluidsniveau moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5171>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen de lengte van de laadruimte het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6101>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen het geluidsniveau voor een bepaald typegoedgekeurd voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5129>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De datum waarop de geregistreerde gegevens van de uitvoering zijn geaccordeerd door VT. Hierna kunnen zowel de kentekenregistratie als de informatieverstrekking van de uitvoeringsgegevens gebruik maken."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5108>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen de technisch toelaatbare maximale statische verticale belasting/massa op het koppelpunt (kg) moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7165>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Emissie van stikstofoxiden gemeten volgens de ESC test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t10104>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Volgnummer binnen carrosserie aanduiding om de gekoppelde aanduiding aan een uitvoering te identificeren en uniek te maken."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7144>
+        <http://www.w3.org/2004/02/skos/core#definition>  "CO uitstoot gemeten volgens de World Harmonized Stationary Cycle (WHSC) met een testcyclus bestaande uit statische toestanden."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7123>
+        <http://www.w3.org/2004/02/skos/core#definition>  "C02 uitstoot gemeten bij een op een rollenbank gemeten voertuig, van toepassing op een extern oplaadbaar hybride elektrisch voertuig, met een oplading van buitenafgewogen gecombineerd volgens de berekening in de richtlijn."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7102>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het brandstofverbruik tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6130>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De emissie van C02 tijdens een gestandaardiseerde stadsritcyclus, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5179>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Nationale code voor de tweede brandstof dan wel energiebron van de motor van een voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6109>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het geluidsniveau van een rijdend voertuig in dB(A), gemeten zoals voorgeschreven in de regelgeving. Voor elektrische en plug-in hybride voertuigen wordt dit gegeven niet vastgelegd."@nl , "Het geluidsniveau van een rijdend voertuig, gemeten zoals voorgeschreven in de richtlijn geluidsemissie."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5158>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Onderste waarde van het bereik waarbinnen het aantal zitplaatsen die uitsluitend zijn bestemd voor gebruik bij een stilstaand voertuig valt, van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5137>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een middenasaanhangwagen getrokken door een trekkend voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7173>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een motor voorzien is van uitlaatgas hercirculatie."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t8103>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Manier waarop de schakeling tussen verschillende versnellingen plaatsvindt."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7131>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het geluidsniveau van een rijdend voertuig in dB(A), gemeten zoals voorgeschreven in de regelgeving. Voor elektrische en plug-in hybride voertuigen wordt dit gegeven niet vastgelegd."@nl , "Het geluidsniveau van een rijdend voertuig, gemeten zoals voorgeschreven in de richtlijn geluidsemissie."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t14104>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6138>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een motor voorzien is van uitlaatgas hercirculatie."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5187>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een uitvoering is voorzien van een 24GHz-kortbereik radar."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6117>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De som van HC en NOX uitstoot."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5166>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Personenautos, bedrijfsautos, bussen en aanhangwagens: Het aantal wielen waarmee een voertuig is uitgevoerd."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5145>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Handelsbenaming van het voertuig zoals de fabrikant deze heeft opgegeven. De handelsbenaming kan afwijken van de aanduiding die op het voertuig te vinden is."@nl , "Benaming van een uitvoering van een variant binnen een Europees voertuigtype zoals die binnen Nederland in commercieel verband gebruikt werd tot 2006. Deze werd door de RDW vastgesteld in overleg met de fabrikant/vertegenwoordiger/importeur. Vanaf 1-1-2006 vermeldt de RDW deze benaming niet meer op het kentekenbewijs."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5124>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Hoogste waarde van het bereik waarbinnen alle wielbases vallen van individuele voertuigen die voldoen aan een bepaalde goedgekeurde voertuiguitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7118>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het elektriciteitsverbruik tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank van toepassing op een extern oplaadbaar hybride elektrisch voertuig, met een oplading van buitenaf gewogen gecombineerd volgens de berekening in de richtlijn."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6146>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een motor voorzien is van luchtinjectie."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12114>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Ja/Nee indicator die aangeeft of de betreffende as aangedreven is of niet."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6125>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De hoogste waarde van de vermogens van de motoren die bij een bepaalde voertuiguitvoering kunnen worden toegepast."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5174>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen de lengte van het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6104>
+        <http://www.w3.org/2004/02/skos/core#definition>  "NOx uitstoot gemeten bij een op een rollenbank rijdend voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5153>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Hoogste waarde van het bereik waarbinnen het aantal deuren valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t2103>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Volgnummer binnen Indeling van de klasse om de gekoppelde klasse aan een carrosserie te identificeren en uniek te maken."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5111>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een autonoom geremde aanhangwagen getrokken door een trekkend voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7105>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De emissie van C02 tijdens een gestandaardiseerde buitenwegcyclus, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12122>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een bepaalde as van een voertuig de gestuurde as is."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t3104>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De datum waarop de huidige status van de Europese typegoedkeuring is ingegaan."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6133>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De laagste waarde van het stationaire toerental in verband met dieselroetmeting."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5182>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen de breedte van het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12101>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Bovengrens van de rolstraal per as."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6112>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Volgnummer binnen de motor uitvoering"@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5161>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Laagste waarde van het bereik waarbinnen het aantal passagiers (zittend en staand) valt van alle individuele voertuigen in de categorie M2 en M3 die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5140>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Laagste waarde van het bereik waarbinnen het aantal zittende passagiers valt van alle individuele voertuigen in de categorie M2 en M3 die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5119>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De laagste van alle ondergrenzen van het bereik waarbinnen de maximum massa ongeremde aanhangwagen moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t4105>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t13102>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7113>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Geeft aan hoeveel biobrandstof in de brandstof maximaal aanvaardbaar is in procenten."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6141>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen het toerental geluidsniveau moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t3112>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Datum waarop de geldigheid van een Europese typegoedkeuring eindigt of beëindigd is. Voertuigen die na deze datum geproduceerd zijn mogen niet meer op grond van deze typegoedkeuring geregistreerd worden."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5190>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Code die status van intrekking van een uitvoering van een Europese typegoedkeuring aangeeft. De volgende codes zijn mogelijk:  spatie = n.v.t.  0 = Ongeldig  G = Geldig: de uitvoering blijft bestaan in de op te voeren uitbreiding van de typegoedkeuring.  V = Verwijderd: de uitvoering staat nog wel geregistreerd, maar er wordt gehandeld alsof hij verwijderd is."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12109>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De hoogste van alle bovengrenzen van het bereik waarbinnen de spoorbreedte van een bepaalde as van een voertuiguitvoering moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6120>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het totale slagvolume (= slag * zuigeroppervlak * aantal cilinders) van de motor. Op het huidige kentekenbewijs wordt dit gegeven vermeld onder de rubriek P.l. Cil. inhoud."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5127>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De inhoud van een brandstoftank in liters."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5106>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Bovengrens van het bereik waarbinnen de afstand van hart koppeling tot de eerstvolgende as van een voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7163>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Deeltjes aantal uitstoot gemeten voor op een vermogensbank geplaatste motor, verplichtend bij de zware testen vanaf euro 5."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t10102>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Europese codering voor nadere aanduiding van het type carrosserie van een voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7142>
+        <http://www.w3.org/2004/02/skos/core#definition>  "CO uitstoot gemeten met een testcyclus bestaande uit 13 statische toestanden die tot stand moeten worden gebracht."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7121>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Massa non-methaan koolwaterstoffen gemeten volgens de World Harmonized Stationary Cycle (WHSC) test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12117>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een as luchtgeveerd is of niet."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6128>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De emissie van C02 tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5177>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De zijde van het voertuig waar het stuurwiel is gemonteerd. Waarden L Links R Rechts M Midden"@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6107>
+        <http://www.w3.org/2004/02/skos/core#definition>  "CO uitstoot gemeten bij een op een rollenbank rijdend voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5156>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen de massa bedrijfsklare toestand moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5135>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De mimimummassa van het voltooide voertuig in het geval van een niet-voltooid voertuig (kg). Dit is noodzakelijk voor het testen van het remmen en het weggedrag van het voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t11103>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Volgnummer binnen Carrosserie voertuig per voertuig-id"@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5114>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De hoogste waarde van alle technisch toelaatbare maximum massas die bij een bepaalde voertuiguitvoering geregistreerd kunnen worden."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7171>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Emissie van ammonia gemeten volgens de World Harmonized Stationary Cycle (WHSC) test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t8101>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Onderste waarde van het bereik waarbinnen het aantal versnellingen valt van de versnellingsbak van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7150>
+        <http://www.w3.org/2004/02/skos/core#definition>  "CO uitstoot gemeten bij een op een rollenbank rijdend voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7129>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Massa non-methaan koolwaterstoffen gemeten volgens de ETC test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7108>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Massa koolwaterstoffen gemeten volgens de ETC test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6136>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Hiermee wordt aangegeven of de motor uitsluitend geschikt is voor ? soort brandstof dan wel voor meerdere.  Monofuel (M), Bifuel (B), Flexfuel (F), Dualfuel (D)  M = voertuig geschikt voor gebruik van 1 brandstoftype B = voertuig geschikt voor gebruik van 2 afzonderlijk te gebruiken brandstoftypes uitgerust met 2 brandstof-systemen.  F = voertuig geschikt voor gebruik van meerdere brandstoffen door 1 brandstofsysteem (bijv. E85)  D = voertuig geschikt voor gebruik van meerdere brandstoffen door meerdere brandstofsystemen  T = voertuig geschikt voor gebruik van drie brandstoffen door twee of meer brandstofsystemen"@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5164>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het aantal aangedreven assen van een voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5143>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Laagste waarde van het bereik waarbinnen alle wielbases vallen van individuele voertuigen die voldoen aan een bepaalde goedgekeurde voertuiguitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t9102>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De datum waarop de geregistreerde gegevens van een merk bij een uitvoering met een Europese typegoedkeuring zijn geaccordeerd door VT. Hierna kunnen zowel de kentekenregistratie als de informatieverstrekking van de gegevens gebruik maken."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5122>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen de massa bedrijfsklare toestand moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7158>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De elektrische actieradius tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank van een extern oplaadbaar hybride elektrisch voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t3115>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Een volgnummer ter aanduiding van een uitbreiding op de basisgoedkeuring. Voor iedere basisgoedkeuring begint een reeks volgnummers met 01."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6144>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een voertuig af fabriek van een elektromotor is voorzien."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12112>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Codering die aangeeft of het voertuig een vooras of achteras heeft."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6123>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen het geluidsniveau voor een bepaald typegoedgekeurd voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5172>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen de breedte van het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6102>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het brandstofverbruik tijdens een gestandaardiseerde stadsritcyclus, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5151>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De hoogste van alle bovengrenzen van het bereik waarbinnen de maximum massa ongeremde aanhangwagen moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t2101>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5109>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een oplegger getrokken door een trekkend voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7166>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De wijze waarop de brandstofinspuiting geschiedt. De codering is:  A Anders*  D Direct  G Geen waarde gespecificeerd 1 Indirect S Inlaatspruitstuk V Voorkamer W Wervelkamer Z Zonder inspuiting  * Anders betekent dat het een inspuiting betreft die niet tot een van de andere codes behoort.  Voor benzinemotoren (elektrische ontsteking) zijn toegestaan:  A, D, G, 1, S en Z  Voor dieselmotoren (compressie ontsteking) zijn toegestaan:  D, G, 1, V, W en Z"@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t10105>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7145>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Massa koolwaterstoffen gemeten volgens de ESC test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7124>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De hoogste waarde van de vermogens van de motoren die bij een bepaalde voertuiguitvoering kunnen worden toegepast."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7103>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het aantal omwentelingen per minuut van de krukas van de motor waarbij het netto maximum vermogen wordt bereikt. De ondergrens bepaalt wanneer een voertuig nog tot dezelfde motor gerekend kan worden."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12120>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of de vering op een as gelijkwaardig is aan luchtvering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6131>
+        <http://www.w3.org/2004/02/skos/core#definition>  "HC uitstoot gemeten bij een op een rollenbank rijdend voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5180>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De datum waarop de huidige status van de Europese typegoedkeuring is ingegaan."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6110>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De datum waarop de geregistreerde gegevens van een Europees typegoedgekeurde motor zijn geaccordeerd door de Bid. Hierna kunnen zowel de kentekenregistratie als de informatieverstrekking van de motorgegevens gebruik maken."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5159>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Bovengrens van het bereik waarbinnen het aantal voor rolstoelgebruikers toegankelijke plaatsen moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5138>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Bovengrens van het bereik van de maximale massa samenstelling. Deze grens bepaalt of een voertuig tot een bepaalde uitvoering behoort."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t8104>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Bovenste waarde van het bereik waarbinnen het aantal versnellingen valt van de versnellingsbak van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7153>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen het geluidsniveau voor een bepaald typegoedgekeurd voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7111>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De som van HC en NOX uitstoot."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t3110>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Als het voertuig op basis van een Europese typegoedkeuring is toegelaten tot de weg, wordt hier het nummer getoond."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5188>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Code die aangeeft of een bepaalde voertuiguitvoering een compleet voertuig is of niet. In dat laatste geval kan het bijvoorbeeld een goedgekeurd chassis(-type) zijn, dat later zal worden opgebouwd tot een compleet voertuig.  Voor niet-complete voertuigen mogen geen kentekens worden afgegeven."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12107>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De laagste van alle ondergrenzen van het bereik waarbinnen de spoorbreedte van een bepaalde as van een voertuiguitvoering moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6118>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De wijze waarop de brandstofinspuiting geschiedt. De codering is:  A Anders*  D Direct  G Geen waarde gespecificeerd 1 Indirect S Inlaatspruitstuk V Voorkamer W Wervelkamer Z Zonder inspuiting  * Anders betekent dat het een inspuiting betreft die niet tot een van de andere codes behoort.  Voor benzinemotoren (elektrische ontsteking) zijn toegestaan:  A, D, G, 1, S en Z  Voor dieselmotoren (compressie ontsteking) zijn toegestaan:  D, G, 1, V, W en Z"@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5146>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De datum waarop de geldigheid van de uitvoering eindigt of geëindigd is. Voertuigen, die na deze datum geproduceerd zijn mogen niet meer op grond van deze uitvoering geregistreerd worden."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5125>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Einddatum van de restantvoorraadregeling bij een uitvoering gebaseerd op de beëindiging van een deelrichtlijn. De periode tussen de begin- en einddatum geldt als restantvoorraadperiode, de grenzen behoren tot de periode. Na deze periode mag een voertuig niet meer via de versnelde kentekenaanvraag worden toegelaten."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5104>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Bovenste waarde van het bereik waarbinnen het aantal zitplaatsen die uitsluitend zijn bestemd voor gebruik bij een stilstaand voertuig valt, van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7140>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Deeltjes aantal uitstoot gemeten bij een op een vermogensbank geplaatste motor, verplichtend bij de testen voor compressie-ontsteking (diesel-achtigen) vanaf euro 5, gemeten volgens de World Harmonized Stationary Cycle (WHSC) test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7119>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Emissie van vaste stoffen (onder andere roet) gemeten volgens de ETC test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6147>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een uitvoering is voorzien van een katalysator."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t3118>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een fabrikant die een voertuig volgens een bepaald Europees type fabriceert."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6126>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De laagste waarde van de vermogens van de motoren die bij een bepaalde voertuiguitvoering kunnen worden toegepast."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5175>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een autonoom geremde aanhangwagen getrokken door een trekkend voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6105>
+        <http://www.w3.org/2004/02/skos/core#definition>  "HC uitstoot van benzine voertuig bij een type VI test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5154>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen de technisch toelaatbare maximale statische verticale belasting/massa op het koppelpunt (kg) moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t2104>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Volgnummer binnen Carrosserie voertuig per voertuig-id"@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t11101>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5112>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Ondergrens van het bereik van de maximale massa samenstelling. Deze grens bepaalt of een voertuig tot een bepaalde uitvoering behoort."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7169>
+        <http://www.w3.org/2004/02/skos/core#definition>  "HC uitstoot gemeten bij een op een rollenbank rijdend voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7148>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De laagste waarde van de vermogens van de motoren die bij een bepaalde voertuiguitvoering kunnen worden toegepast."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7127>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het aantal omwentelingen per minuut van de krukas van de motor waarbij het netto maximum vermogen wordt bereikt. De bovengrens bepaalt wanneer een voertuig nog tot dezelfde motor gerekend kan worden."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6134>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een voertuig af fabriek van een CNG (Compressed Natural Gas) systeem is voorzien."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5183>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Extra aanduiding bij een Europese voertuiguitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12102>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Ondergens van de rolstraal per as."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5141>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Hoogste waarde van het bereik waarbinnen het aantal passagiers (zittend en staand) valt van alle individuele voertuigen in de categorie M2 en M3 die voldoen aan een bepaalde Europees goedgekeurde voertuiguitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t9100>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Code die een merk per soort voertuig identificeert. Deze code wordt door de RDW zelf toegekend."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5120>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De hoogste van alle bovengrenzen van het bereik waarbinnen de maximum massa geremde aanhangwagen moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7156>
+        <http://www.w3.org/2004/02/skos/core#definition>  "HC uitstoot van benzine voertuig bij een type VI test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t4106>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Volgnummer binnen handelsbenaming"@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t13103>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Volgnummer om de aan de uitvoering gekoppelde codering(en) voor carrosserie voor speciale doeleinden te identificeren en uniek te  maken."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7114>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Nationale code voor de brandstof dan wel energiebron van de motor van een voertuig. De codering en de bijbehorende tekst is als volgt: B = Benzine, C = LNG (Liquified Natural Gas), D = Diesel, E = Elektriciteit, G = LPG (Liquified Petroleum Gas), H = CNG (Compressed Natural Gas, aardgas), W = Waterstof, A = Alcohol.  Elektriciteit is geen brandstof maar een energiebron. Echter om aan te kunnen geven dat het voertuig voorzien is van een elektromotor is er voor gekozen om de E te hanteren."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6142>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het brandstofverbruik tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t3113>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Europese voertuig categorie bij een Europees type goedgekeurd type."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5191>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Datum waarop de Europese TGK ingetrokken is verklaard door VT, n.a.v. het aanscherpen van de normen/eisen van een deelrichtlijn."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12110>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een as geheven kan worden, d.w.z. zodanig omhoog bewogen dat de wielen tijdens het rijden het wegdek niet raken.  Deze mag alleen de waarde J bevatten voor bedrijfsauto als AS-NR-VRTG > 1 en AANT-ASSEN >= 3 en voor aanhangwagen als AS-NR-VRTG > 0 en AANT-ASSEN >= 2.  In de andere gevallen moet de waarde N zijn."@nl , "Indicator die aangeeft of een as geheven kan worden, d.w.z. zodanig omhoog bewogen dat de wielen tijdens het rijden het wegdek niet raken.  Deze mag alleen de waarde J bevatten  - voor bedrijfsauto als AS-NR-VRTG > 1 en AANT-ASSEN >= 3 en  -voor aanhangwagen als AS-NR-VRTG > 0 en AANT-ASSEN >= 2.  In de andere gevallen moet de waarde N zijn."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5170>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Bovengrens van het bereik waarbinnen het de maximumsnelheid van het voertuig waarvoor de elektromotor ondersteuning biedt moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5128>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De datum waarop de geldigheid van de uitvoering begint of begonnen is. Dit kan zijn de typegoedkeuringsdatum van een eerste goedkeuring of van een wijziging of uitbreiding. Voertuigen, die voor deze datum geproduceerd zijn mogen niet op grond van deze uitvoering geregistreerd worden."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5107>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Ondergrens van het bereik waarbinnen de afstand van hart koppeling tot de eerstvolgende as van een voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7164>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Onderste waarde van het bereik waarbinnen het elektrisch continue vermogen van alle uitvoeringen van een bepaalde voertuigvariant moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7143>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7122>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Het brandstofverbruik tijdens een combinatie van gestandaardiseerde stadsrit- en buitenwegcycli, uitgevoerd op een rollenbank van toepassing op een extern oplaadbaar hybride elektrisch voertuig, met een oplading van buitenafgewogen gecombineerd volgens de berekening in de richtlijn."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7101>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen het geluidsniveau voor een bepaald typegoedgekeurd voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12118>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Bovengrens van het bereik waarbinnen een de afstand tot de volgende as voor een bepaalde as van een individueel voertuig moet vallen om tot dezelfde uitvoering gerekend te worden."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6129>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De emissie van C02 tijdens een gestandaardiseerde buitenwegcyclus, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5178>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Code die aangeeft of een bepaald voertuig of een bepaalde voertuiguitvoering linksrijdend of rechtsrijdend is uitgevoerd."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6108>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Een maat voor de vervuiling van de lucht die uit de uitlaat van een voertuig komt."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5157>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Bovengrens van het bereik waarbinnen het de maximumsnelheid van het voertuig waarvoor de elektromotor ondersteuning biedt moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5136>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een middenasaanhangwagen getrokken door een trekkend voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5115>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Hoogste waarde van het bereik waarbinnen het aantal zittende passagiers valt van alle individuele voertuigen in de categorie M2 en M3 die voldoen aan een bepaalde Europees goedgekeurde voertuiguitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7172>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De actieradius tijdens een combinatie van gestandaardiseerde stadsriten buitenwegcycli, uitgevoerd op een rollenbank."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t8102>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7151>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Nummer waarmee een bedrijf eenduidig is te identificeren binnen de opendata set."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7130>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De uitstoot van vaste stoffen (onder andere roet) gemeten met een testcyclus bestaande uit 13 statische toestanden die tot stand moeten worden gebracht."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7109>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Emissie van stikstofoxiden gemeten volgens de ETC test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t3108>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De kenletters of kengetal van een EEG lidstaat, tot dusver voorafgegaan door de kleine letter e. De mogelijke kenletters of kengetallen met de bijbehorende landen zijn: el = Duitsland e2 = Frankrijk  e3 = Italië e4 = Nederland  e5 = Zweden  e6 = België el = Hongarije e8 = Tsjechië e9 = Spanje ell = Verenigd Koninkrijk el2 = Oostenrijk el3 = Luxemburg el7 = Finland el8 = Denemarken el9 = Roemenië e20 = Polen e21 = Portugal  e23 = Griekenland (vroeger was de code hiervoor eEL)  e24 = Ierland (vroeger was de code hiervoor eIRL)  e26 = Slovenië e27 = Slowakije  e29 = Estland  e32 = Letland  e34 = Bulgarije  e36 = Litouwen  e49 = Cyprus  e50 = Malta  nl = Nederland Land codes en correcte weergave met eventuele overgangsnummeringen kan je het beste overnemen uit het rode boekje van afdeling OVR(ontwikkeling voertuig reglementering ). Ik kan dat boekje vinden in de virtuele kast onder kopje overzichten. Op bladzijde 4 en 5 staat alles."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6137>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of een voertuig af fabriek van een elektromotor is voorzien waarvan de accu door de benzinemotor wordt gevoed. Dit attribuut maakt zo het onderscheid tussen hybride voertuigen en elektrische voertuigen die met een externe krachtbron worden opgeladen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5186>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft dat een voertuig is gebouwd op een op zichzelf staande dragende constructie."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6116>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Onderste waarde van het bereik waarbinnen het elektrisch continue vermogen van alle uitvoeringen van een bepaalde voertuigvariant moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5165>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Omschrijving van de uitvoeringsvorm van de inrichting van een voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t9103>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5123>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Laagste waarde van het bereik waarbinnen het aantal zitplaatsen valt van alle individuele voertuigen die voldoen aan een bepaalde Europees goedgekeurde voertuig uitvoering."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7159>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Volgnummer waarmee de emissiegegevens bij een bepaalde brandstof in de gewenste volgorde kunnen worden getoond."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7138>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De uitstoot van vaste stoffen (onder andere roet) gemeten bij een op een rollenbank rijdend voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7117>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Emissie van stikstofoxiden gemeten volgens de World Harmonized Stationary Cycle (WHSC) test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t3116>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Datum waarop de Europese TGK ingetrokken is verklaard door VT, n.a.v. het aanscherpen van de normen/eisen van een deelrichtlijn."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12113>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Indicator die aangeeft of op een bepaalde as dubbele montage van toepassing is, dat wil zeggen dat er twee banden tegen elkaar op een dubbele velg zijn gemonteerd. Indien van toepassing geldt dit altijd voor de betreffende as."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6124>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Onderste waarde van het bereik waarbinnen het elektrisch continue vermogen van alle uitvoeringen van een bepaalde voertuigvariant moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5173>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen de lengte van het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6103>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De uitstoot van vaste stoffen (onder andere roet) gemeten bij een op een rollenbank rijdend voertuig."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5152>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen de technische maximum massa van het beladen voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5131>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De code van een variant binnen een Europees voertuigtype."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5110>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De ondergrens van het bereik waarbinnen de technisch toelaatbare maximum massa van een oplegger getrokken door een trekkend voertuig moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7167>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Methaan emissie gemeten volgens de World Harmonized Stationary Cycle (WHSC) test."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t10106>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Volgnummer binnen Carrosserie voertuig per voertuig-id"@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7146>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De kleinste waarde van het bereik van het netto maximale vermogen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t7104>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Onderste waarde van het bereik waarbinnen het elektrisch continue vermogen van alle uitvoeringen van een bepaalde voertuigvariant moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6132>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De hoogste waarde van het stationaire toerental in verband met dieselroetmeting."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5181>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De bovengrens van het bereik waarbinnen de lengte van de laadruimte het uiteindelijke voertuig moet vallen. Het betreft de grenzen waarbij de fabrikant aangeeft waarbinnen het voertuig voldoet aan de deelrichtlijnen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t12100>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Ondergrens van het bereik waarbinnen een de afstand tot de volgende as van een bepaalde as van een individueel voertuig moet vallen om tot dezelfde uitvoering gerekend te worden."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t6111>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Code die een fabrikant van een voertuig aan een toegepaste motor toekent."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5160>
+        <http://www.w3.org/2004/02/skos/core#definition>  "Ondergrens van het bereik waarbinnen het aantal voor rolstoelgebruikers toegankelijke plaatsen moet vallen."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5139>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De laagste waarde van alle technisch toelaatbare maximum massas die bij een bepaalde voertuiguitvoering geregistreerd kunnen worden."@nl .
+
+<http://www.me-ds.nl/voc/voertuig#t5118>
+        <http://www.w3.org/2004/02/skos/core#definition>  "De laagste van alle ondergrenzen van het bereik waarbinnen de wettelijk toegestane maximum massa samenstel moet vallen."@nl .
+
