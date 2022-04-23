@@ -1,0 +1,48 @@
+
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix ds: <https://opendata.rdw.nl/resource/_5k74-3jha/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix : <http://www.me-ds.nl/voc/voertuig#>
+prefix soc: <http://www.socrata.com/rdf/terms#>
+
+construct {
+  #create new Classes ErkendBedrijf en Kwaliteit
+  <http://www.me-ds.nl/voc/voertuig#voertuig> rdf:type <http://www.w3.org/2002/07/owl#Class> .
+  :voertuig skos:prefLabel "Voertuig"@nl .
+  :voertuig skos:prefLabel "Vehicle"@en .
+  :voertuig rdfs:label "Voertuig"@nl .
+  <http://www.me-ds.nl/voc/voertuig#Kwaliteit> rdf:type <http://www.w3.org/2002/07/owl#Class> .
+  
+  #Add the standard Datatype- and ObjectProperties
+  <http://www.me-ds.nl/voc/voertuig#heeftWaarde> rdf:type owl:DatatypeProperty .
+  <http://www.me-ds.nl/voc/voertuig#heeftKwaliteit> rdf:type owl:ObjectProperty .
+  
+  #Every SKOS:Concept to OWL:Class with rdfs:label and skos:definition and subClassOf Kwaliteit
+  ?concepturi <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+  ?concepturi rdfs:label ?clabel .
+  ?concepturi skos:prefLabel ?clabel .
+  ?concepturi skos:definition ?cdefinition .
+  ?concepturi rdfs:subClassOf :Kwaliteit .
+  ?uripred rdf:type owl:ObjectProperty .
+  ?uripred rdfs:subPropertyOf :heeftKwaliteit .
+  ?uripred rdfs:domain :voertuig .
+  ?uripred rdfs:range ?concepturi .
+}
+WHERE {
+  ?conceptsscheme ?p skos:ConceptScheme ;           #From SKOS vocabulary
+                  skos:prefLabel ?cslabel ;         #Get label as variable for construct
+                  skos:prefLabel"Gekentekend voertuig schema"@nl .
+  ?concept rdf:type skos:Concept ;
+           skos:prefLabel ?clabel ;
+           skos:inScheme ?conceptsscheme .
+  ?concept skos:definition ?cdefinition .
+  
+ BIND ("http://www.me-ds.nl/voc/voertuig#" AS ?base) 
+  BIND (IRI(CONCAT(?base, "heeft",REPLACE(REPLACE(?clabel," ",""),"[()/]",""))) AS ?uripred) 
+ BIND (IRI(CONCAT(?base, REPLACE(STR(?concept),"http://www.me-datastudio.nl/vocabularies/voertuig#",""))) AS ?concepturi)
+ 
+}
