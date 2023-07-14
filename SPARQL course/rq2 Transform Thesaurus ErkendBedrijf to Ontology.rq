@@ -8,6 +8,7 @@ prefix : <http://www.me-datastudio.nl/vocabularies/voertuig#>
 prefix soc: <http://www.socrata.com/rdf/terms#>
 
 construct {
+#insert {
   #create new Classes ErkendBedrijf en Kwaliteit
   <http://www.me-datastudio.nl/vocabularies/voertuig#v312> rdf:type <http://www.w3.org/2002/07/owl#Class> .
   :v312 skos:prefLabel "Erkend bedrijf"@nl .
