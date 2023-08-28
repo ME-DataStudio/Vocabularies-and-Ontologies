@@ -9,5 +9,5 @@ All SKOS definitions in one file: voertuigbegrippen.ttl. Published on https://ww
 # Ontologies #
 From the SKOS file an ontology is made with SPARQL (see workshop SPARQL queries rq2 and rq3) for Erkende Bedrijven (erkendbedrijf.owl).
 
-In this repository I used fuseki as a triplestore in [Virtuoso](https://github.com/ME-DataStudio/virtuoso.) I am starting to use Openlinksw Virtuoso.
+In this repository I used fuseki as a triplestore in [Virtuoso](https://github.com/ME-DataStudio/virtuoso/blob/main/README.md.) I am starting to use Openlinksw Virtuoso.
 
