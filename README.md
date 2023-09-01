@@ -11,3 +11,6 @@ From the SKOS file an ontology is made with SPARQL (see workshop SPARQL queries 
 
 In this repository I used fuseki as a triplestore in [Virtuoso](https://github.com/ME-DataStudio/virtuoso/) I am starting to use Openlinksw Virtuoso.
 
+# Queries.ttl #  
+In Virtuoso it is not possible to save SPARQL and SQL queries with the defeault open-source installation/docker container. So I started queries.ttl to store SPARQL queries as linked-data in Virtuoso. 
+
